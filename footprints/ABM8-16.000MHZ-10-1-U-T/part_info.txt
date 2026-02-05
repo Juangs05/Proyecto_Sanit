@@ -1,0 +1,9 @@
+Manufacturer=ABRACON
+PartNumber=ABM8-16.000MHZ-10-1-U-T
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=7.2
+Released=2021-08-31 15:20:43
+Downloaded=2026-02-05 12:20:32
+3D=Y

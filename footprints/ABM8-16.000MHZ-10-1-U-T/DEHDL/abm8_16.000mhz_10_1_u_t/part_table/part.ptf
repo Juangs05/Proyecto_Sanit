@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ABM8_16.000MHZ_10_1_U_T'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ABRACON", "ABM8-16.000MHZ-10-1-U-T" (!) = "", "ABM810000MHZ12D2W", "Other", "815-ABM8-16.0-10-1UT", "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM8-16.000MHZ-10-1-U-T?qs=76dmnhCH%2FMPE6VptGf62ew%3D%3D", "16 MHz +/-10ppm Crystal 10pF 70 Ohms 4-SMD, No Lead", "https://abracon.com/Resonators/abm8.pdf", "0.8 mm"
+END_PART
+
+END.
