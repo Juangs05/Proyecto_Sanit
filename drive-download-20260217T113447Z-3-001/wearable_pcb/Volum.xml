@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/santi/Volum/ImpedanceVolumeSensor/Volum/Volum.sch</source>
+    <date>2021 April 30, Friday 11:37:47</date>
+    <tool>Eeschema (5.1.5-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>VOLUM</title>
+        <company>University of Seville</company>
+        <rev>v1.1</rev>
+        <date>2021-02-23</date>
+        <source>Volum.sch</source>
+        <comment number="1" value="Santiago Fernández Scagliusi"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>470 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <fields>
+        <field name="Note">C-ISO4</field>
+      </fields>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E638DE3</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>470 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <fields>
+        <field name="Note">C-ISO3</field>
+      </fields>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E639D67</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>470 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <fields>
+        <field name="Note">C-ISO2</field>
+      </fields>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63A6B3</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>4.7 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <fields>
+        <field name="Note">C-LPF</field>
+      </fields>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63C898</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5EED86</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>1 uF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5FD8C3</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>470 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5EF974</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>470 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <fields>
+        <field name="Note">C-ISO1</field>
+      </fields>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E637B33</tstamp>
+    </comp>
+    <comp ref="RLIM1">
+      <value>1 Kohms</value>
+      <footprint>Volum:R_0402</footprint>
+      <libsource lib="Volum-rescue" part="R-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E646B28</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>4.7 uF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6262C2</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>470 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6449AD</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>6.8 pF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E65C088</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>6.8 pF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E65C08E</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E693060</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E693A7D</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>470 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6A17BD</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10 Kohms</value>
+      <footprint>Volum:R_0402</footprint>
+      <libsource lib="Volum-rescue" part="R-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E94BAB9</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>AD5941BCPZ</value>
+      <footprint>Volum:QFN50P700X700X80-49N-D</footprint>
+      <fields>
+        <field name="Description">Data Acquisition ADCs/DACs - Specialized Bio-Impedance &amp; Electrochemical AFE</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">AD5941BCPZ</field>
+      </fields>
+      <libsource lib="Volum-rescue" part="AD5941BCPZ-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E62D978</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>10 uF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB32024</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB3202A</tstamp>
+    </comp>
+    <comp ref="Y3">
+      <value>Crystal_16M-7pF</value>
+      <footprint>Volum:ABM8</footprint>
+      <datasheet>https://abracon.com/Resonators/abm8.pdf</datasheet>
+      <libsource lib="Volum-rescue" part="Crystal_16M-7pF-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC63FDF</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>Crystal-2pin-32kHz</value>
+      <footprint>Volum:ECS32712512RCTR</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/122/ECX-12R-1314062.pdf</datasheet>
+      <libsource lib="Volum-rescue" part="Crystal-2pin-32kHz-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBC4A7A</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>12 pF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E974A42</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>12 pF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E974A3C</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10 Kohms</value>
+      <footprint>Volum:R_0402</footprint>
+      <libsource lib="Volum-rescue" part="R-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8B96F7</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>BNO055</value>
+      <footprint>Volum:BNO055</footprint>
+      <datasheet>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST_BNO055_DS000_14.pdf</datasheet>
+      <fields>
+        <field name="Description">IMUs - Inertial Measurement Units Absolute Orientation 9-Axis Sensor</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Bosch Sensortec</field>
+        <field name="Manufacturer_Part_Number">BNO055</field>
+      </fields>
+      <libsource lib="Volum-rescue" part="BNO055-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E78D9BD</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10 Kohms</value>
+      <footprint>Volum:R_0402</footprint>
+      <libsource lib="Volum-rescue" part="R-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8ABE8D</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10 Kohms</value>
+      <footprint>Volum:R_0402</footprint>
+      <libsource lib="Volum-rescue" part="R-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A7050</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10 Kohms</value>
+      <footprint>Volum:R_0402</footprint>
+      <libsource lib="Volum-rescue" part="R-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E87A80F</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E86D878</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10 Kohms</value>
+      <footprint>Volum:R_0402</footprint>
+      <libsource lib="Volum-rescue" part="R-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E85F0FC</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10 Kohms</value>
+      <footprint>Volum:R_0402</footprint>
+      <libsource lib="Volum-rescue" part="R-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E856465</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E84A2F6</tstamp>
+    </comp>
+    <comp ref="AE1">
+      <value>2450AT18A100E</value>
+      <footprint>Volum:ANTC3216X140N</footprint>
+      <datasheet>2450AT18A100E</datasheet>
+      <fields>
+        <field name="Field4">712-1005-1-ND</field>
+        <field name="Field5">Johanson Technology</field>
+        <field name="Field6">FBGA-780 Johanson</field>
+        <field name="Field7">ANTENNA, CERAMIC, 2.45GHZ; Bandwidth: 100MHz; Frequency: 2.45GHz; Gain: -0.5dB; Impedance: 50ohm</field>
+        <field name="Field8">https://www.digikey.es/product-detail/en/johanson-technology-inc/2450AT18A100E/712-1005-1-ND/1560834?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+      </fields>
+      <libsource lib="Volum-rescue" part="2450AT18A100E-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4801F2</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4BD0F3</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4BDCE6</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4BE062</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>3.9 nH</value>
+      <footprint>Volum:L_0402</footprint>
+      <libsource lib="Volum-rescue" part="L-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6F78CF</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>15 nH</value>
+      <footprint>Volum:L_0402</footprint>
+      <libsource lib="Volum-rescue" part="L-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6F58F4</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>1 uF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E472D7F</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100 pF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E471476</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E46F2B1</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>10 uH</value>
+      <footprint>Volum:L_0402</footprint>
+      <libsource lib="Volum-rescue" part="L-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6F4E06</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>20 Kohms</value>
+      <footprint>Volum:R_0402</footprint>
+      <libsource lib="Volum-rescue" part="R-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5D9A4D</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>nRF52832-QFAA-MCU_Nordic</value>
+      <footprint>Volum:QFN-48-1EP_6x6mm_Pitch0.4mm</footprint>
+      <libsource lib="Volum-rescue" part="nRF52832-QFxx-MCU_Nordic-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4698D2</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.8 pF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E47A23E</tstamp>
+    </comp>
+    <comp ref="BTN1">
+      <value>B3U-1000P</value>
+      <footprint>Volum:SW_B3U-1000P</footprint>
+      <datasheet>Omron Electronics</datasheet>
+      <fields>
+        <field name="Campo6">Unavailable</field>
+        <field name="Campo7">B3U-3000P</field>
+        <field name="Campo8">None</field>
+        <field name="Field4">None</field>
+      </fields>
+      <libsource lib="Volum-rescue" part="B3U-3000P-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E484677</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>2.2 pF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F971558</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>DNC</value>
+      <footprint>Volum:L_0402</footprint>
+      <libsource lib="Volum-rescue" part="L-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F97336F</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>3.9 nH</value>
+      <footprint>Volum:L_0402</footprint>
+      <libsource lib="Volum-rescue" part="L-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F975147</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>12 pF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E49C305</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>12 pF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E49CE8E</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>12 pF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E49E146</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>12 pF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E49E425</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal_32MHz</value>
+      <footprint>Volum:ECS320833B7KMTR</footprint>
+      <libsource lib="Volum-rescue" part="Crystal_CX2016_32M-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E497EF8</tstamp>
+    </comp>
+    <comp ref="Y4">
+      <value>Crystal-2pin-32kHz</value>
+      <footprint>Volum:ECS32712512RCTR</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/122/ECX-12R-1314062.pdf</datasheet>
+      <libsource lib="Volum-rescue" part="Crystal-2pin-32kHz-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBC38E9</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>10 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1D136E</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>3.9 Mohms</value>
+      <footprint>Volum:R_0402</footprint>
+      <libsource lib="Volum-rescue" part="R-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1D1F7E</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10 Mohms</value>
+      <footprint>Volum:R_0402</footprint>
+      <libsource lib="Volum-rescue" part="R-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1D2C92</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>220 pF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60230254</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>470 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6024D60A</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>10 uF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6026EEAD</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>100 nF</value>
+      <footprint>Volum:C_0402</footprint>
+      <libsource lib="Volum-rescue" part="C-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60275618</tstamp>
+    </comp>
+    <comp ref="RCAL1">
+      <value>200 ohms</value>
+      <footprint>Volum:R_0402</footprint>
+      <libsource lib="Volum-rescue" part="R-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E609BB6</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>LEDGr_VCDG1113F-4BY3C-TR</value>
+      <footprint>Volum:VCDG1113F4BY3CTR</footprint>
+      <datasheet>http://www.stanley-components.com/php/downloaddatafile.php?rp=0,VCDG1113F-4BY3C-TR_e.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">VCDG1113F-4BY3C-TR</field>
+        <field name="Description">LEDGr_VCDG1113F-4BY3C-TR</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">Stanley Electric</field>
+        <field name="Manufacturer_Part_Number">VCDG1113F-4BY3C-TR</field>
+        <field name="Mouser Part Number">327-VCDG1113F4BY3CTR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=327-VCDG1113F4BY3CTR</field>
+      </fields>
+      <libsource lib="Volum-rescue" part="LEDGr_VCDG1113F-4BY3C-TR-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32FD16</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>53048-0450</value>
+      <footprint>Volum:Molex_PicoBlade_53048-0450</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/530480450_sd.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">53048-0450</field>
+        <field name="Description">1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Through Hole, Gold (Au) Plating, Friction Lock, 4 Circuits, Tape and Reel, 2.30mm PC Tail Length</field>
+        <field name="Height">3.5</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">53048-0450</field>
+        <field name="Mouser Part Number">538-53048-0450</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/53048-0450?qs=0lSvoLzn4L%252Bhzo05ywM78Q%3D%3D</field>
+      </fields>
+      <libsource lib="Volum-rescue" part="53048-0450-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2E9DCD</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100 ohms</value>
+      <footprint>Volum:R_0402</footprint>
+      <libsource lib="Volum-rescue" part="R-Device-Volum" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC9FCBF</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>M50-3030242</value>
+      <footprint>Volum:M503030242</footprint>
+      <datasheet>https://cdn.harwin.com/pdfs/M50-303.pdf</datasheet>
+      <fields>
+        <field name="Description">Headers &amp; Wire Housings 2 WAY SIL VERT PC TAIL SKT</field>
+        <field name="Height">4.55</field>
+        <field name="Manufacturer_Name">Harwin</field>
+        <field name="Manufacturer_Part_Number">M50-3030242</field>
+      </fields>
+      <libsource lib="M50-3030242" part="M50-3030242" description="Headers &amp; Wire Housings 2 WAY SIL VERT PC TAIL SKT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60911D1B</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>53048-0210</value>
+      <footprint>Volum:SHDRRA2W35P0X125_1X2_425X550X350P</footprint>
+      <datasheet>http://uk.rs-online.com/web/p/products/2799279P</datasheet>
+      <fields>
+        <field name="Allied_Number">70372589</field>
+        <field name="Description">2 way through board PCB 90deg header Molex PICOBLADE Series, Series Number 53048, 1.25mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 1A</field>
+        <field name="Height">3.5</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">53048-0210</field>
+        <field name="RS Part Number">2799279P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/2799279P</field>
+      </fields>
+      <libsource lib="53048-0210" part="53048-0210" description="2 way through board PCB 90deg header Molex PICOBLADE Series, Series Number 53048, 1.25mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 1A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60852278</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="53048-0210" part="53048-0210">
+      <description>2 way through board PCB 90deg header Molex PICOBLADE Series, Series Number 53048, 1.25mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 1A</description>
+      <docs>http://uk.rs-online.com/web/p/products/2799279P</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">53048-0210</field>
+        <field name="Footprint">SHDRRA2W35P0X125_1X2_425X550X350P</field>
+        <field name="Datasheet">http://uk.rs-online.com/web/p/products/2799279P</field>
+        <field name="Description">2 way through board PCB 90deg header Molex PICOBLADE Series, Series Number 53048, 1.25mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 1A</field>
+        <field name="Height">3.5</field>
+        <field name="RS Part Number">2799279P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/2799279P</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">53048-0210</field>
+        <field name="Allied_Number">70372589</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="M50-3030242" part="M50-3030242">
+      <description>Headers &amp; Wire Housings 2 WAY SIL VERT PC TAIL SKT</description>
+      <docs>https://cdn.harwin.com/pdfs/M50-303.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M50-3030242</field>
+        <field name="Footprint">M503030242</field>
+        <field name="Datasheet">https://cdn.harwin.com/pdfs/M50-303.pdf</field>
+        <field name="Description">Headers &amp; Wire Housings 2 WAY SIL VERT PC TAIL SKT</field>
+        <field name="Height">4.55</field>
+        <field name="Manufacturer_Name">Harwin</field>
+        <field name="Manufacturer_Part_Number">M50-3030242</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Volum-rescue" part="2450AT18A100E-Volum">
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">2450AT18A100E-Volum</field>
+        <field name="Footprint">Volum:ANTC3216X140N</field>
+        <field name="Field4">712-1005-1-ND</field>
+        <field name="Field5">Johanson Technology</field>
+        <field name="Field6">FBGA-780 Johanson</field>
+        <field name="Field7">ANTENNA, CERAMIC, 2.45GHZ; Bandwidth: 100MHz; Frequency: 2.45GHz; Gain: -0.5dB; Impedance: 50ohm</field>
+        <field name="Field8">https://www.digikey.es/product-detail/en/johanson-technology-inc/2450AT18A100E/712-1005-1-ND/1560834?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Volum-rescue" part="53048-0450-Volum">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">53048-0450-Volum</field>
+        <field name="Footprint">Volum:Molex_PicoBlade_53048-0450</field>
+        <field name="Description">1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Through Hole, Gold (Au) Plating, Friction Lock, 4 Circuits, Tape and Reel, 2.30mm PC Tail Length</field>
+        <field name="Height">3.5</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">53048-0450</field>
+        <field name="Arrow Part Number">53048-0450</field>
+        <field name="Mouser Part Number">538-53048-0450</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/53048-0450?qs=0lSvoLzn4L%252Bhzo05ywM78Q%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Volum-rescue" part="AD5941BCPZ-Volum">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AD5941BCPZ-Volum</field>
+        <field name="Footprint">Volum:QFN50P700X700X80-49N-D</field>
+        <field name="Description">Data Acquisition ADCs/DACs - Specialized Bio-Impedance &amp; Electrochemical AFE</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">AD5941BCPZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RC0_2" type="unspc"/>
+        <pin num="2" name="RC0_1" type="unspc"/>
+        <pin num="3" name="RC0_0" type="unspc"/>
+        <pin num="4" name="VREF_2V5" type="unspc"/>
+        <pin num="5" name="AVDD_REG" type="unspc"/>
+        <pin num="6" name="DVDD" type="unspc"/>
+        <pin num="7" name="DNC_1" type="unspc"/>
+        <pin num="8" name="VBIAS0" type="unspc"/>
+        <pin num="9" name="VZERO0" type="unspc"/>
+        <pin num="10" name="DNC_2" type="unspc"/>
+        <pin num="11" name="XTALI" type="unspc"/>
+        <pin num="12" name="XTALO" type="unspc"/>
+        <pin num="13" name="DGND_1" type="unspc"/>
+        <pin num="14" name="DVDD_REG_1V8" type="unspc"/>
+        <pin num="15" name="~CS" type="unspc"/>
+        <pin num="16" name="SCLK" type="unspc"/>
+        <pin num="17" name="MOSI" type="unspc"/>
+        <pin num="18" name="MISO" type="unspc"/>
+        <pin num="19" name="GPIO0" type="unspc"/>
+        <pin num="20" name="GPIO1" type="unspc"/>
+        <pin num="21" name="GPIO2" type="unspc"/>
+        <pin num="22" name="~RESET" type="unspc"/>
+        <pin num="23" name="DGND_2" type="unspc"/>
+        <pin num="24" name="DNC_3" type="unspc"/>
+        <pin num="25" name="DGND_3" type="unspc"/>
+        <pin num="26" name="IOVDD" type="unspc"/>
+        <pin num="27" name="AFE3" type="unspc"/>
+        <pin num="28" name="AFE4" type="unspc"/>
+        <pin num="29" name="AGND_1" type="unspc"/>
+        <pin num="30" name="AVDD_1" type="unspc"/>
+        <pin num="31" name="VBIAS_CAP" type="unspc"/>
+        <pin num="32" name="RCAL0" type="unspc"/>
+        <pin num="33" name="RCAL1" type="unspc"/>
+        <pin num="34" name="AFE1" type="unspc"/>
+        <pin num="35" name="AFE2" type="unspc"/>
+        <pin num="36" name="AIN3/BUF_VREF1V8" type="unspc"/>
+        <pin num="37" name="AIN2" type="unspc"/>
+        <pin num="38" name="AIN1" type="unspc"/>
+        <pin num="39" name="AIN0" type="unspc"/>
+        <pin num="40" name="AIN4/LPF0" type="unspc"/>
+        <pin num="41" name="AVDD_2" type="unspc"/>
+        <pin num="42" name="AGND_2" type="unspc"/>
+        <pin num="43" name="VREF_1V8" type="unspc"/>
+        <pin num="44" name="AGND_REF" type="unspc"/>
+        <pin num="45" name="SE0" type="unspc"/>
+        <pin num="46" name="DE0" type="unspc"/>
+        <pin num="47" name="CE0" type="unspc"/>
+        <pin num="48" name="RE0" type="unspc"/>
+        <pin num="49" name="EP" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="Volum-rescue" part="B3U-3000P-Volum">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">B3U-3000P-Volum</field>
+        <field name="Footprint">Volum:SW_B3U-1000P</field>
+        <field name="Field4">None</field>
+        <field name="Campo6">Unavailable</field>
+        <field name="Campo7">B3U-3000P</field>
+        <field name="Campo8">None</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Volum-rescue" part="BNO055-Volum">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">BNO055-Volum</field>
+        <field name="Footprint">Volum:BNO055</field>
+        <field name="Description">IMUs - Inertial Measurement Units Absolute Orientation 9-Axis Sensor</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Bosch Sensortec</field>
+        <field name="Manufacturer_Part_Number">BNO055</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PIN1" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="NBOOT_LOAD_PIN" type="power_in"/>
+        <pin num="5" name="PS1" type="input"/>
+        <pin num="6" name="PS0" type="power_in"/>
+        <pin num="7" name="PIN7" type="input"/>
+        <pin num="8" name="PIN8" type="output"/>
+        <pin num="9" name="CAP" type="power_in"/>
+        <pin num="10" name="BL_IND" type="input"/>
+        <pin num="11" name="NRESET" type="input"/>
+        <pin num="12" name="PIN12" type="input"/>
+        <pin num="13" name="PIN13" type="input"/>
+        <pin num="14" name="INT" type="unspc"/>
+        <pin num="15" name="PIN15" type="unspc"/>
+        <pin num="16" name="PIN16" type="unspc"/>
+        <pin num="17" name="COM3" type="unspc"/>
+        <pin num="18" name="COM2" type="input"/>
+        <pin num="19" name="COM1" type="input"/>
+        <pin num="20" name="COM0" type="unspc"/>
+        <pin num="21" name="PIN21" type="unspc"/>
+        <pin num="22" name="PIN22" type="input"/>
+        <pin num="23" name="PIN23" type="input"/>
+        <pin num="24" name="PIN24" type="input"/>
+        <pin num="25" name="GNDIO" type="unspc"/>
+        <pin num="26" name="XOUT32" type="input"/>
+        <pin num="27" name="XIN32" type="unspc"/>
+        <pin num="28" name="VDDIO" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Volum-rescue" part="C-Device-Volum">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device-Volum</field>
+        <field name="Footprint">Volum:C_0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Volum-rescue" part="Crystal-2pin-32kHz-Volum">
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal-2pin-32kHz-Volum</field>
+        <field name="Footprint">Volum:ECS32712512RCTR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Volum-rescue" part="Crystal_16M-7pF-Volum">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_16M-7pF-Volum</field>
+        <field name="Footprint">Volum:ABM8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Volum-rescue" part="Crystal_CX2016_32M-Device-Volum">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_CX2016_32M-Device-Volum</field>
+        <field name="Footprint">Volum:CX2016DB32000D0WZRC1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Volum-rescue" part="L-Device-Volum">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L-Device-Volum</field>
+        <field name="Footprint">Volum:L_0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Volum-rescue" part="LEDGr_VCDG1113F-4BY3C-TR-Volum">
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LEDGr_VCDG1113F-4BY3C-TR-Volum</field>
+        <field name="Footprint">Volum:VCDG1113F4BY3CTR</field>
+        <field name="Description">R/A LED</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">Stanley Electric</field>
+        <field name="Manufacturer_Part_Number">VCDG1113F-4BY3C-TR</field>
+        <field name="Arrow Part Number">VCDG1113F-4BY3C-TR</field>
+        <field name="Mouser Part Number">327-VCDG1113F4BY3CTR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=327-VCDG1113F4BY3CTR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Volum-rescue" part="R-Device-Volum">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device-Volum</field>
+        <field name="Footprint">Volum:R_0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Volum-rescue" part="nRF52832-QFxx-MCU_Nordic-Volum">
+      <footprints>
+        <fp>QFN*1EP*6x6mm*P0.4mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">nRF52832-QFxx-MCU_Nordic-Volum</field>
+        <field name="Footprint">Volum:QFN-48-1EP_6x6mm_Pitch0.4mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DEC1" type="passive"/>
+        <pin num="2" name="P0.00/XL1" type="BiDi"/>
+        <pin num="3" name="P0.01/XL2" type="BiDi"/>
+        <pin num="4" name="P0.02/AIN0" type="BiDi"/>
+        <pin num="5" name="P0.03/AIN1" type="BiDi"/>
+        <pin num="6" name="P0.04/AIN2" type="BiDi"/>
+        <pin num="7" name="P0.05/AIN3" type="BiDi"/>
+        <pin num="8" name="P0.06" type="BiDi"/>
+        <pin num="9" name="P0.07" type="BiDi"/>
+        <pin num="10" name="P0.08" type="BiDi"/>
+        <pin num="11" name="NFC1/P0.09" type="BiDi"/>
+        <pin num="12" name="NFC2/P0.10" type="BiDi"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="14" name="P0.11" type="BiDi"/>
+        <pin num="15" name="P0.12" type="BiDi"/>
+        <pin num="16" name="P0.13" type="BiDi"/>
+        <pin num="17" name="P0.14" type="BiDi"/>
+        <pin num="18" name="P0.15" type="BiDi"/>
+        <pin num="19" name="P0.16" type="BiDi"/>
+        <pin num="20" name="P0.17" type="BiDi"/>
+        <pin num="21" name="P0.18/SWO" type="BiDi"/>
+        <pin num="22" name="P0.19" type="BiDi"/>
+        <pin num="23" name="P0.20" type="BiDi"/>
+        <pin num="24" name="P0.21/~RESET" type="BiDi"/>
+        <pin num="25" name="SWDCLK" type="input"/>
+        <pin num="26" name="SWDIO" type="BiDi"/>
+        <pin num="27" name="P0.22" type="BiDi"/>
+        <pin num="28" name="P0.23" type="BiDi"/>
+        <pin num="29" name="P0.24" type="BiDi"/>
+        <pin num="30" name="ANT" type="passive"/>
+        <pin num="31" name="VSS" type="power_in"/>
+        <pin num="32" name="DEC2" type="passive"/>
+        <pin num="33" name="DEC3" type="passive"/>
+        <pin num="34" name="XC1" type="input"/>
+        <pin num="35" name="XC2" type="input"/>
+        <pin num="36" name="VDD" type="passive"/>
+        <pin num="37" name="P0.25" type="BiDi"/>
+        <pin num="38" name="P0.26" type="BiDi"/>
+        <pin num="39" name="P0.27" type="BiDi"/>
+        <pin num="40" name="P0.28/AIN4" type="BiDi"/>
+        <pin num="41" name="P0.29/AIN5" type="BiDi"/>
+        <pin num="42" name="P0.30/AIN6" type="BiDi"/>
+        <pin num="43" name="P0.31/AIN7" type="BiDi"/>
+        <pin num="44" name="NC" type="NotConnected"/>
+        <pin num="45" name="VSS" type="passive"/>
+        <pin num="46" name="DEC4" type="passive"/>
+        <pin num="47" name="DCC" type="power_out"/>
+        <pin num="48" name="VDD" type="passive"/>
+        <pin num="49" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="53048-0210">
+      <uri>/Users/santi/Downloads/LIB_53048-0210/53048-0210/KiCad/53048-0210.lib</uri>
+    </library>
+    <library logical="M50-3030242">
+      <uri>/Users/santi/Downloads/LIB_M50-3030242/M50-3030242/KiCad/M50-3030242.lib</uri>
+    </library>
+    <library logical="Volum-rescue">
+      <uri>/Users/santi/Volum/ImpedanceVolumeSensor/Volum/Volum-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="IC1" pin="36"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad2)">
+      <node ref="J2" pin="4"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="4" name="Net-(C2-Pad1)">
+      <node ref="IC1" pin="37"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="IC1" pin="38"/>
+    </net>
+    <net code="6" name="Net-(C23-Pad1)">
+      <node ref="IC1" pin="8"/>
+      <node ref="C23" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C24-Pad1)">
+      <node ref="IC1" pin="9"/>
+      <node ref="C24" pin="1"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="C22" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="LED1" pin="1"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="L5" pin="2"/>
+      <node ref="BTN1" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U1" pin="49"/>
+      <node ref="U1" pin="45"/>
+      <node ref="U1" pin="31"/>
+      <node ref="IC1" pin="13"/>
+      <node ref="IC1" pin="23"/>
+      <node ref="IC1" pin="25"/>
+      <node ref="C14" pin="2"/>
+      <node ref="IC1" pin="29"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="IC1" pin="42"/>
+      <node ref="IC1" pin="44"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C28" pin="2"/>
+      <node ref="IC1" pin="49"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="IC2" pin="25"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="IC2" pin="18"/>
+      <node ref="IC2" pin="16"/>
+      <node ref="IC2" pin="15"/>
+      <node ref="IC2" pin="10"/>
+      <node ref="Y3" pin="2"/>
+      <node ref="Y3" pin="4"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C30" pin="2"/>
+    </net>
+    <net code="9" name="Net-(C22-Pad2)">
+      <node ref="C22" pin="2"/>
+      <node ref="IC1" pin="31"/>
+    </net>
+    <net code="10" name="Net-(IC1-Pad33)">
+      <node ref="RCAL1" pin="2"/>
+      <node ref="IC1" pin="33"/>
+    </net>
+    <net code="11" name="Net-(IC1-Pad32)">
+      <node ref="RCAL1" pin="1"/>
+      <node ref="IC1" pin="32"/>
+    </net>
+    <net code="12" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="RLIM1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(C4-Pad2)">
+      <node ref="J2" pin="1"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="14" name="Net-(IC1-Pad47)">
+      <node ref="IC1" pin="47"/>
+      <node ref="RLIM1" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C5-Pad1)">
+      <node ref="IC1" pin="40"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C18-Pad1)">
+      <node ref="IC1" pin="43"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="17" name="Net-(C25-Pad1)">
+      <node ref="C25" pin="1"/>
+      <node ref="Y3" pin="1"/>
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="18" name="Net-(C26-Pad1)">
+      <node ref="IC1" pin="12"/>
+      <node ref="C26" pin="1"/>
+      <node ref="Y3" pin="3"/>
+    </net>
+    <net code="19" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1"/>
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="20" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="21" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="23" name="Net-(IC1-Pad10)">
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="24" name="Net-(IC1-Pad48)">
+      <node ref="IC1" pin="48"/>
+    </net>
+    <net code="25" name="Net-(IC1-Pad46)">
+      <node ref="IC1" pin="46"/>
+    </net>
+    <net code="26" name="Net-(IC1-Pad45)">
+      <node ref="IC1" pin="45"/>
+    </net>
+    <net code="27" name="Net-(IC1-Pad39)">
+      <node ref="IC1" pin="39"/>
+    </net>
+    <net code="28" name="Net-(IC1-Pad24)">
+      <node ref="IC1" pin="24"/>
+    </net>
+    <net code="29" name="AVDD">
+      <node ref="R8" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U1" pin="48"/>
+      <node ref="R6" pin="1"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="C19" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U1" pin="36"/>
+      <node ref="C17" pin="1"/>
+      <node ref="IC1" pin="41"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U1" pin="13"/>
+      <node ref="C10" pin="1"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="C11" pin="1"/>
+      <node ref="IC2" pin="28"/>
+      <node ref="C13" pin="1"/>
+      <node ref="IC1" pin="30"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="IC1" pin="26"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C37" pin="1"/>
+    </net>
+    <net code="30" name="AD_CS">
+      <node ref="U1" pin="11"/>
+      <node ref="IC1" pin="15"/>
+    </net>
+    <net code="31" name="AD_SCLK">
+      <node ref="U1" pin="10"/>
+      <node ref="IC1" pin="16"/>
+    </net>
+    <net code="32" name="AD_MOSI">
+      <node ref="U1" pin="8"/>
+      <node ref="IC1" pin="17"/>
+    </net>
+    <net code="33" name="AD_MISO">
+      <node ref="U1" pin="7"/>
+      <node ref="IC1" pin="18"/>
+    </net>
+    <net code="34" name="AD_INT">
+      <node ref="IC1" pin="19"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="35" name="Net-(C35-Pad1)">
+      <node ref="C35" pin="1"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="36" name="AD_GPIO1">
+      <node ref="IC1" pin="20"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="37" name="Net-(IC1-Pad21)">
+      <node ref="IC1" pin="21"/>
+    </net>
+    <net code="38" name="RESET_AD">
+      <node ref="IC1" pin="22"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="39" name="Net-(IC1-Pad27)">
+      <node ref="IC1" pin="27"/>
+    </net>
+    <net code="40" name="Net-(IC1-Pad28)">
+      <node ref="IC1" pin="28"/>
+    </net>
+    <net code="41" name="Net-(IC1-Pad34)">
+      <node ref="IC1" pin="34"/>
+    </net>
+    <net code="42" name="Net-(IC1-Pad35)">
+      <node ref="IC1" pin="35"/>
+    </net>
+    <net code="43" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="44" name="XOUT_IMU">
+      <node ref="IC2" pin="26"/>
+      <node ref="Y2" pin="2"/>
+      <node ref="C30" pin="1"/>
+    </net>
+    <net code="45" name="XIN_IMU">
+      <node ref="IC2" pin="27"/>
+      <node ref="Y2" pin="1"/>
+      <node ref="C29" pin="1"/>
+    </net>
+    <net code="46" name="Net-(IC2-Pad13)">
+      <node ref="IC2" pin="13"/>
+    </net>
+    <net code="47" name="Net-(IC2-Pad12)">
+      <node ref="IC2" pin="12"/>
+    </net>
+    <net code="48" name="Net-(IC2-Pad8)">
+      <node ref="IC2" pin="8"/>
+    </net>
+    <net code="49" name="Net-(IC2-Pad7)">
+      <node ref="IC2" pin="7"/>
+    </net>
+    <net code="50" name="Net-(IC2-Pad1)">
+      <node ref="IC2" pin="1"/>
+    </net>
+    <net code="51" name="Net-(IC2-Pad24)">
+      <node ref="IC2" pin="24"/>
+    </net>
+    <net code="52" name="Net-(IC2-Pad23)">
+      <node ref="IC2" pin="23"/>
+    </net>
+    <net code="53" name="Net-(IC2-Pad22)">
+      <node ref="IC2" pin="22"/>
+    </net>
+    <net code="54" name="Net-(IC2-Pad21)">
+      <node ref="IC2" pin="21"/>
+    </net>
+    <net code="55" name="SDA_IMU">
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="16"/>
+      <node ref="IC2" pin="20"/>
+    </net>
+    <net code="56" name="INT_IMU">
+      <node ref="U1" pin="20"/>
+      <node ref="IC2" pin="14"/>
+    </net>
+    <net code="57" name="Net-(IC2-Pad17)">
+      <node ref="IC2" pin="17"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="58" name="SCL_IMU">
+      <node ref="IC2" pin="19"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="59" name="Net-(IC2-Pad5)">
+      <node ref="R4" pin="2"/>
+      <node ref="IC2" pin="5"/>
+    </net>
+    <net code="60" name="Net-(IC2-Pad6)">
+      <node ref="R5" pin="2"/>
+      <node ref="IC2" pin="6"/>
+    </net>
+    <net code="61" name="Net-(C28-Pad1)">
+      <node ref="C28" pin="1"/>
+      <node ref="IC2" pin="9"/>
+    </net>
+    <net code="62" name="RESET_IMU">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="21"/>
+      <node ref="IC2" pin="11"/>
+    </net>
+    <net code="63" name="Net-(C15-Pad1)">
+      <node ref="U1" pin="46"/>
+      <node ref="C15" pin="1"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="64" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="65" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="66" name="Net-(L2-Pad2)">
+      <node ref="L3" pin="1"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="67" name="Net-(L3-Pad2)">
+      <node ref="U1" pin="47"/>
+      <node ref="L3" pin="2"/>
+    </net>
+    <net code="68" name="Net-(BTN1-Pad2)">
+      <node ref="U1" pin="24"/>
+      <node ref="R2" pin="2"/>
+      <node ref="BTN1" pin="2"/>
+    </net>
+    <net code="69" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="70" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="71" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="72" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="73" name="LSE1">
+      <node ref="U1" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="Y4" pin="1"/>
+    </net>
+    <net code="74" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="75" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="76" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="77" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="78" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="79" name="LSE2">
+      <node ref="U1" pin="3"/>
+      <node ref="Y4" pin="2"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="80" name="Net-(C12-Pad1)">
+      <node ref="L1" pin="2"/>
+      <node ref="U1" pin="30"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="81" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="82" name="HSE1">
+      <node ref="Y1" pin="1"/>
+      <node ref="U1" pin="34"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="83" name="HSE2">
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="35"/>
+      <node ref="Y1" pin="3"/>
+    </net>
+    <net code="84" name="Net-(U1-Pad37)">
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="85" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="86" name="Net-(U1-Pad39)">
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="87" name="Net-(U1-Pad40)">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="88" name="Net-(U1-Pad41)">
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="89" name="Net-(U1-Pad42)">
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="90" name="Net-(U1-Pad43)">
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="91" name="Net-(U1-Pad44)">
+      <node ref="U1" pin="44"/>
+    </net>
+    <net code="92" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="93" name="Net-(C33-Pad1)">
+      <node ref="C33" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="94" name="Net-(AE1-Pad1)">
+      <node ref="AE1" pin="1"/>
+      <node ref="L4" pin="1"/>
+    </net>
+    <net code="95" name="Net-(C33-Pad2)">
+      <node ref="C33" pin="2"/>
+      <node ref="L4" pin="2"/>
+      <node ref="L5" pin="1"/>
+    </net>
+    <net code="96" name="Net-(C34-Pad1)">
+      <node ref="U1" pin="12"/>
+      <node ref="R12" pin="2"/>
+      <node ref="C34" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="97" name="Net-(C35-Pad2)">
+      <node ref="IC1" pin="3"/>
+      <node ref="C35" pin="2"/>
+    </net>
+    <net code="98" name="Net-(C38-Pad1)">
+      <node ref="IC1" pin="14"/>
+      <node ref="C38" pin="1"/>
+    </net>
+    <net code="99" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="100" name="SWDIO">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="101" name="SWDCLK">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="25"/>
+    </net>
+  </nets>
+</export>

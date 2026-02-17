@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Volum-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Volum-eagle-import.lib)(options "")(descr "")(disabled))
+  (lib (name Volum-rescue)(type Legacy)(uri ${KIPRJMOD}/Volum-rescue.lib)(options "")(descr ""))
+)

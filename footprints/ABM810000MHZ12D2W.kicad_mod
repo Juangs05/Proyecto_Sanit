@@ -231,19 +231,7 @@
 		(uuid "e6432fb0-a619-40db-850b-02869377b939")
 	)
 	(embedded_fonts no)
-	(model "ABM8-16.000MHZ-10-1-U-T.stp"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "C:/Users/Usuario/Desktop/proyecto_santi/footprints/AD5941BCPZ/3D/AD5941BCPZ.stp"
+	(model "C:/Users/Usuario/Desktop/proyecto_santi/footprints/ABM8-16.000MHZ-10-1-U-T/3D/ABM8-16.000MHZ-10-1-U-T.stp"
 		(offset
 			(xyz 0 0 0)
 		)

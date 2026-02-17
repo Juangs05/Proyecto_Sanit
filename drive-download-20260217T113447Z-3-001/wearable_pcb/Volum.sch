@@ -1,0 +1,2023 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "VOLUM"
+Date "2021-02-23"
+Rev "v1.1"
+Comp "University of Seville"
+Comment1 "Santiago Fernández Scagliusi"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5850 4750 5600 4750
+$Comp
+L Volum-rescue:C-Device-Volum C1
+U 1 1 5E638DE3
+P 1650 950
+F 0 "C1" V 1398 950 50  0000 C CNN
+F 1 "470 nF" V 1489 950 50  0000 C CNN
+F 2 "Volum:C_0402" H 1688 800 50  0001 C CNN
+F 3 "" H 1650 950 50  0001 C CNN
+F 4 "C-ISO4" V 1650 950 50  0001 C CNN "Note"
+	1    1650 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C2
+U 1 1 5E639D67
+P 1650 1500
+F 0 "C2" V 1398 1500 50  0000 C CNN
+F 1 "470 nF" V 1489 1500 50  0000 C CNN
+F 2 "Volum:C_0402" H 1688 1350 50  0001 C CNN
+F 3 "" H 1650 1500 50  0001 C CNN
+F 4 "C-ISO3" V 1650 1500 50  0001 C CNN "Note"
+	1    1650 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C3
+U 1 1 5E63A6B3
+P 1650 1900
+F 0 "C3" V 1398 1900 50  0000 C CNN
+F 1 "470 nF" V 1489 1900 50  0000 C CNN
+F 2 "Volum:C_0402" H 1688 1750 50  0001 C CNN
+F 3 "" H 1650 1900 50  0001 C CNN
+F 4 "C-ISO2" V 1650 1900 50  0001 C CNN "Note"
+	1    1650 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C5
+U 1 1 5E63C898
+P 1500 2250
+F 0 "C5" H 1222 2296 50  0000 L CNN
+F 1 "4.7 nF" H 1142 2205 50  0000 L CNN
+F 2 "Volum:C_0402" H 1538 2100 50  0001 C CNN
+F 3 "" H 1500 2250 50  0001 C CNN
+F 4 "C-LPF" H 1500 2250 50  0001 C CNN "Note"
+	1    1500 2250
+	1    0    0    -1  
+$EndComp
+Text Notes 2150 700  0    50   ~ 0
+AD5941 Impedance Front End
+Text GLabel 5200 2700 2    50   Input ~ 0
+AD_CS
+Text GLabel 5200 2600 2    50   Input ~ 0
+AD_SCLK
+Text GLabel 5200 2500 2    50   Input ~ 0
+AD_MOSI
+Text GLabel 5200 2400 2    50   Input ~ 0
+AD_MISO
+Wire Notes Line
+	1300 850  1500 850 
+Wire Notes Line
+	1300 1050 1500 1050
+Wire Notes Line
+	1300 1050 1300 850 
+Wire Notes Line
+	1300 1400 1500 1400
+Wire Notes Line
+	1300 1600 1500 1600
+Wire Notes Line
+	1300 1600 1300 1400
+Wire Notes Line
+	1300 1800 1500 1800
+Wire Notes Line
+	1300 2000 1500 2000
+Wire Notes Line
+	1300 2000 1300 1800
+Wire Notes Line
+	1300 2950 1500 2950
+Wire Notes Line
+	1300 3150 1300 2950
+Text Notes 1350 1000 0    50   ~ 0
+V-
+Text Notes 1350 1550 0    50   ~ 0
+V+
+Text Notes 1350 1950 0    50   ~ 0
+I-
+Wire Notes Line
+	1500 1800 1500 2000
+Wire Notes Line
+	1500 1400 1500 1600
+Wire Notes Line
+	1500 850  1500 1050
+Wire Wire Line
+	1800 950  3100 950 
+Wire Wire Line
+	3100 950  3100 1300
+Wire Wire Line
+	2100 2700 2200 2700
+Wire Wire Line
+	2000 1700 2200 1700
+Wire Wire Line
+	2000 1500 2000 1700
+Wire Wire Line
+	1800 1500 2000 1500
+Wire Wire Line
+	2000 1800 2200 1800
+Wire Wire Line
+	2000 1900 2000 1800
+Wire Wire Line
+	1800 1900 2000 1900
+Wire Wire Line
+	1900 2000 2200 2000
+$Comp
+L Volum-rescue:C-Device-Volum C23
+U 1 1 5E5EED86
+P 3700 3750
+F 0 "C23" H 3815 3796 50  0000 L CNN
+F 1 "100 nF" H 3815 3705 50  0000 L CNN
+F 2 "Volum:C_0402" H 3738 3600 50  0001 C CNN
+F 3 "" H 3700 3750 50  0001 C CNN
+	1    3700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C24
+U 1 1 5E5FD8C3
+P 3950 3750
+F 0 "C24" H 4065 3796 50  0000 L CNN
+F 1 "1 uF" H 4065 3705 50  0000 L CNN
+F 2 "Volum:C_0402" H 3988 3600 50  0001 C CNN
+F 3 "" H 3950 3750 50  0001 C CNN
+	1    3950 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3300 3800 3500
+Wire Wire Line
+	3800 3500 3700 3500
+Wire Wire Line
+	3700 3500 3700 3600
+Wire Wire Line
+	3900 3300 3900 3500
+Wire Wire Line
+	3900 3500 3950 3500
+$Comp
+L Volum-rescue:AGND-Volum #PWR0102
+U 1 1 5E5F7E10
+P 3600 800
+F 0 "#PWR0102" H 3600 550 50  0001 C CNN
+F 1 "AGND" H 3605 631 50  0000 C CNN
+F 2 "" H 3600 800 50  0001 C CNN
+F 3 "" H 3600 800 50  0001 C CNN
+	1    3600 800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C22
+U 1 1 5E5EF974
+P 3600 950
+F 0 "C22" H 3715 996 50  0000 L CNN
+F 1 "470 nF" H 3715 905 50  0000 L CNN
+F 2 "Volum:C_0402" H 3638 800 50  0001 C CNN
+F 3 "" H 3600 950 50  0001 C CNN
+	1    3600 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1300 3400 1200
+Wire Wire Line
+	3400 1200 3200 1200
+Wire Wire Line
+	3200 1200 3200 1050
+Wire Wire Line
+	3500 1050 3500 1300
+$Comp
+L Volum-rescue:C-Device-Volum C4
+U 1 1 5E637B33
+P 1650 3050
+F 0 "C4" V 1792 3050 50  0000 C CNN
+F 1 "470 nF" V 1883 3050 50  0000 C CNN
+F 2 "Volum:C_0402" H 1688 2900 50  0001 C CNN
+F 3 "" H 1650 3050 50  0001 C CNN
+F 4 "C-ISO1" V 1650 3050 50  0001 C CNN "Note"
+	1    1650 3050
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	1500 2950 1500 3150
+Text Notes 1350 3100 0    50   ~ 0
+I+
+Wire Notes Line
+	1300 3150 1500 3150
+$Comp
+L Volum-rescue:R-Device-Volum RLIM1
+U 1 1 5E646B28
+P 1950 3050
+F 0 "RLIM1" V 2058 3050 50  0000 C CNN
+F 1 "1 Kohms" V 2149 3050 50  0000 C CNN
+F 2 "Volum:R_0402" V 1880 3050 50  0001 C CNN
+F 3 "" H 1950 3050 50  0001 C CNN
+	1    1950 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 3050 2100 2700
+Wire Wire Line
+	1500 2050 1900 2050
+Wire Wire Line
+	1500 2100 1500 2050
+$Comp
+L Volum-rescue:C-Device-Volum C18
+U 1 1 5E6262C2
+P 2050 2300
+F 0 "C18" V 1798 2300 50  0000 C CNN
+F 1 "4.7 uF" V 1889 2300 50  0000 C CNN
+F 2 "Volum:C_0402" H 2088 2150 50  0001 C CNN
+F 3 "" H 2050 2300 50  0001 C CNN
+	1    2050 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 2400 1900 2300
+Wire Wire Line
+	1900 2050 1900 2000
+Wire Wire Line
+	2200 2400 1900 2400
+Wire Wire Line
+	1900 2200 1900 2300
+Wire Wire Line
+	1900 2200 2200 2200
+Connection ~ 1900 2300
+$Comp
+L Volum-rescue:AGND-Volum #PWR0103
+U 1 1 5E63F183
+P 1900 2400
+F 0 "#PWR0103" H 1900 2150 50  0001 C CNN
+F 1 "AGND" H 1905 2232 50  0000 C CNN
+F 2 "" H 1900 2400 50  0001 C CNN
+F 3 "" H 1900 2400 50  0001 C CNN
+	1    1900 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 1900 2400
+$Comp
+L Volum-rescue:AGND-Volum #PWR0104
+U 1 1 5E63FB4B
+P 1500 2400
+F 0 "#PWR0104" H 1500 2150 50  0001 C CNN
+F 1 "AGND" H 1505 2232 50  0000 C CNN
+F 2 "" H 1500 2400 50  0001 C CNN
+F 3 "" H 1500 2400 50  0001 C CNN
+	1    1500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C20
+U 1 1 5E6449AD
+P 3250 3750
+F 0 "C20" H 3365 3796 50  0000 L CNN
+F 1 "470 nF" H 3365 3705 50  0000 L CNN
+F 2 "Volum:C_0402" H 3288 3600 50  0001 C CNN
+F 3 "" H 3250 3750 50  0001 C CNN
+	1    3250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0105
+U 1 1 5E648A57
+P 5200 2900
+F 0 "#PWR0105" H 5200 2650 50  0001 C CNN
+F 1 "DGND" H 5205 2727 50  0000 C CNN
+F 2 "" H 5200 2900 50  0001 C CNN
+F 3 "" H 5200 2900 50  0001 C CNN
+	1    5200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0106
+U 1 1 5E649306
+P 5200 1900
+F 0 "#PWR0106" H 5200 1650 50  0001 C CNN
+F 1 "DGND" V 5205 1772 50  0000 R CNN
+F 2 "" H 5200 1900 50  0001 C CNN
+F 3 "" H 5200 1900 50  0001 C CNN
+	1    5200 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0107
+U 1 1 5E64A140
+P 4200 1300
+F 0 "#PWR0107" H 4200 1050 50  0001 C CNN
+F 1 "DGND" H 4205 1127 50  0000 C CNN
+F 2 "" H 4200 1300 50  0001 C CNN
+F 3 "" H 4200 1300 50  0001 C CNN
+	1    4200 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Volum-rescue:AGND-Volum #PWR0108
+U 1 1 5E64A81E
+P 3800 1300
+F 0 "#PWR0108" H 3800 1050 50  0001 C CNN
+F 1 "AGND" H 3805 1131 50  0000 C CNN
+F 2 "" H 3800 1300 50  0001 C CNN
+F 3 "" H 3800 1300 50  0001 C CNN
+	1    3800 1300
+	-1   0    0    1   
+$EndComp
+Text Notes 2100 1900 0    50   ~ 0
+DNC
+Text Notes 2100 2500 0    50   ~ 0
+DNC
+Text Notes 2100 2600 0    50   ~ 0
+DNC
+Text Notes 2100 2800 0    50   ~ 0
+DNC
+Text Notes 3100 3400 1    50   ~ 0
+DNC
+Text Notes 3700 3400 1    50   ~ 0
+DNC
+Text Notes 4000 3400 1    50   ~ 0
+DNC
+Text Notes 5350 1800 2    50   ~ 0
+DNC
+$Comp
+L Volum-rescue:C-Device-Volum C25
+U 1 1 5E65C088
+P 4550 4100
+F 0 "C25" H 4665 4146 50  0000 L CNN
+F 1 "6.8 pF" H 4665 4055 50  0000 L CNN
+F 2 "Volum:C_0402" H 4588 3950 50  0001 C CNN
+F 3 "" H 4550 4100 50  0001 C CNN
+	1    4550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C26
+U 1 1 5E65C08E
+P 5150 4100
+F 0 "C26" H 5265 4146 50  0000 L CNN
+F 1 "6.8 pF" H 5265 4055 50  0000 L CNN
+F 2 "Volum:C_0402" H 5188 3950 50  0001 C CNN
+F 3 "" H 5150 4100 50  0001 C CNN
+	1    5150 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5150 3850
+Wire Wire Line
+	5200 3850 5150 3850
+Connection ~ 4550 3850
+Wire Wire Line
+	4500 3850 4550 3850
+Wire Wire Line
+	5150 3850 5150 3950
+Wire Wire Line
+	5000 3850 5150 3850
+Wire Wire Line
+	4550 3850 4700 3850
+Wire Wire Line
+	4550 3950 4550 3850
+Wire Wire Line
+	4550 4250 4850 4250
+$Comp
+L Volum-rescue:DGND-Volum #PWR0109
+U 1 1 5E660DB6
+P 4850 4250
+F 0 "#PWR0109" H 4850 4000 50  0001 C CNN
+F 1 "DGND" H 4855 4077 50  0000 C CNN
+F 2 "" H 4850 4250 50  0001 C CNN
+F 3 "" H 4850 4250 50  0001 C CNN
+	1    4850 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4850 4250
+Wire Wire Line
+	4850 4250 5150 4250
+$Comp
+L Volum-rescue:DGND-Volum #PWR0110
+U 1 1 5E6616CD
+P 4850 3650
+F 0 "#PWR0110" H 4850 3400 50  0001 C CNN
+F 1 "DGND" H 4855 3477 50  0000 C CNN
+F 2 "" H 4850 3650 50  0001 C CNN
+F 3 "" H 4850 3650 50  0001 C CNN
+	1    4850 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 3300 4100 3600
+Wire Wire Line
+	4100 3600 4500 3600
+Wire Wire Line
+	4500 3600 4500 3850
+Wire Wire Line
+	4200 3300 5150 3300
+Wire Wire Line
+	5150 3300 5150 3850
+Wire Wire Line
+	3600 1100 3600 1300
+Text GLabel 2200 2100 0    50   Input ~ 0
+AVDD
+Text GLabel 3700 1300 1    50   Input ~ 0
+AVDD
+Text GLabel 1450 3850 0    50   Input ~ 0
+AVDD
+$Comp
+L Volum-rescue:C-Device-Volum C17
+U 1 1 5E693060
+P 1550 4000
+F 0 "C17" H 1665 4046 50  0000 L CNN
+F 1 "100 nF" H 1665 3955 50  0000 L CNN
+F 2 "Volum:C_0402" H 1588 3850 50  0001 C CNN
+F 3 "" H 1550 4000 50  0001 C CNN
+	1    1550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C19
+U 1 1 5E693A7D
+P 1800 4000
+F 0 "C19" H 1915 4046 50  0000 L CNN
+F 1 "100 nF" H 1915 3955 50  0000 L CNN
+F 2 "Volum:C_0402" H 1838 3850 50  0001 C CNN
+F 3 "" H 1800 4000 50  0001 C CNN
+	1    1800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:AGND-Volum #PWR0115
+U 1 1 5E694395
+P 1700 4150
+F 0 "#PWR0115" H 1700 3900 50  0001 C CNN
+F 1 "AGND" H 1705 3982 50  0000 C CNN
+F 2 "" H 1700 4150 50  0001 C CNN
+F 3 "" H 1700 4150 50  0001 C CNN
+	1    1700 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3850 1550 3850
+Connection ~ 1550 3850
+Wire Wire Line
+	1550 3850 1800 3850
+Wire Wire Line
+	1550 4150 1700 4150
+Connection ~ 1700 4150
+Wire Wire Line
+	1700 4150 1800 4150
+Text Notes 1450 3600 0    50   ~ 0
+Place close to AD5940
+$Comp
+L Volum-rescue:C-Device-Volum C21
+U 1 1 5E6A17BD
+P 3450 3750
+F 0 "C21" H 3565 3796 50  0000 L CNN
+F 1 "470 nF" H 3565 3705 50  0000 L CNN
+F 2 "Volum:C_0402" H 3488 3600 50  0001 C CNN
+F 3 "" H 3450 3750 50  0001 C CNN
+	1    3450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:AGND-Volum #PWR0116
+U 1 1 5E6A17C3
+P 3550 4050
+F 0 "#PWR0116" H 3550 3800 50  0001 C CNN
+F 1 "AGND" H 3555 3882 50  0000 C CNN
+F 2 "" H 3550 4050 50  0001 C CNN
+F 3 "" H 3550 4050 50  0001 C CNN
+	1    3550 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3450 3400 3450
+Wire Wire Line
+	3400 3450 3400 3300
+Wire Wire Line
+	3450 3450 3500 3450
+Wire Wire Line
+	3500 3450 3500 3300
+Wire Wire Line
+	3250 3900 3250 4050
+Wire Wire Line
+	3250 4050 3450 4050
+Wire Wire Line
+	3550 4050 3700 4050
+Wire Wire Line
+	3950 4050 3950 3900
+Connection ~ 3550 4050
+Wire Wire Line
+	3450 3900 3450 4050
+Connection ~ 3450 4050
+Wire Wire Line
+	3450 4050 3550 4050
+Wire Wire Line
+	3700 3900 3700 4050
+Connection ~ 3700 4050
+Wire Wire Line
+	3700 4050 3950 4050
+$Comp
+L Volum-rescue:DGND-Volum #PWR0125
+U 1 1 5E755636
+P 2200 2950
+F 0 "#PWR0125" H 2200 2700 50  0001 C CNN
+F 1 "DGND" H 2205 2777 50  0000 C CNN
+F 2 "" H 2200 2950 50  0001 C CNN
+F 3 "" H 2200 2950 50  0001 C CNN
+	1    2200 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2900 2200 2950
+NoConn ~ 3100 3300
+NoConn ~ 3700 3300
+NoConn ~ 4000 3300
+NoConn ~ 2200 2800
+NoConn ~ 2200 2600
+NoConn ~ 2200 2500
+NoConn ~ 2200 1900
+NoConn ~ 5200 1800
+Wire Wire Line
+	3950 3500 3950 3600
+Wire Wire Line
+	3450 3600 3450 3450
+Wire Wire Line
+	3250 3600 3250 3450
+Wire Wire Line
+	5450 2000 5550 2000
+$Comp
+L Volum-rescue:+3.3V-Volum #PWR0141
+U 1 1 5E94BABF
+P 5450 1700
+F 0 "#PWR0141" H 5450 1550 50  0001 C CNN
+F 1 "+3.3V" V 5465 1828 50  0000 L CNN
+F 2 "" H 5450 1700 50  0001 C CNN
+F 3 "" H 5450 1700 50  0001 C CNN
+	1    5450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:R-Device-Volum R10
+U 1 1 5E94BAB9
+P 5450 1850
+F 0 "R10" V 5558 1850 50  0000 C CNN
+F 1 "10 Kohms" V 5649 1850 50  0000 C CNN
+F 2 "Volum:R_0402" V 5380 1850 50  0001 C CNN
+F 3 "" H 5450 1850 50  0001 C CNN
+	1    5450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:AD5941BCPZ-Volum IC1
+U 1 1 5E62D978
+P 3100 3300
+F 0 "IC1" H 5144 2746 50  0000 L CNN
+F 1 "AD5941BCPZ" H 5144 2655 50  0001 L CNN
+F 2 "Volum:QFN50P700X700X80-49N-D" H 4950 4000 50  0001 L CNN
+F 3 "" H 4950 3900 50  0001 L CNN
+F 4 "Data Acquisition ADCs/DACs - Specialized Bio-Impedance & Electrochemical AFE" H 4950 3800 50  0001 L CNN "Description"
+F 5 "0.8" H 4950 3700 50  0001 L CNN "Height"
+F 6 "Analog Devices" H 4950 3400 50  0001 L CNN "Manufacturer_Name"
+F 7 "AD5941BCPZ" H 4950 3300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3100 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 2000 5450 2000
+Connection ~ 5450 2000
+$Comp
+L Volum-rescue:+3.3V-Volum #PWR0145
+U 1 1 5EB12E93
+P 1550 3850
+F 0 "#PWR0145" H 1550 3700 50  0001 C CNN
+F 1 "+3.3V" H 1565 4023 50  0000 C CNN
+F 2 "" H 1550 3850 50  0001 C CNN
+F 3 "" H 1550 3850 50  0001 C CNN
+	1    1550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C31
+U 1 1 5EB32024
+P 2400 4000
+F 0 "C31" H 2515 4046 50  0000 L CNN
+F 1 "10 uF" H 2515 3955 50  0000 L CNN
+F 2 "Volum:C_0402" H 2438 3850 50  0001 C CNN
+F 3 "" H 2400 4000 50  0001 C CNN
+	1    2400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C32
+U 1 1 5EB3202A
+P 2650 4000
+F 0 "C32" H 2765 4046 50  0000 L CNN
+F 1 "100 nF" H 2765 3955 50  0000 L CNN
+F 2 "Volum:C_0402" H 2688 3850 50  0001 C CNN
+F 3 "" H 2650 4000 50  0001 C CNN
+	1    2650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:AGND-Volum #PWR0146
+U 1 1 5EB32030
+P 2550 4150
+F 0 "#PWR0146" H 2550 3900 50  0001 C CNN
+F 1 "AGND" H 2555 3982 50  0000 C CNN
+F 2 "" H 2550 4150 50  0001 C CNN
+F 3 "" H 2550 4150 50  0001 C CNN
+	1    2550 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3850 2400 3850
+Connection ~ 2400 3850
+Wire Wire Line
+	2400 3850 2650 3850
+Wire Wire Line
+	2400 4150 2550 4150
+Connection ~ 2550 4150
+Wire Wire Line
+	2550 4150 2650 4150
+$Comp
+L Volum-rescue:+3.3V-Volum #PWR0147
+U 1 1 5EB3203C
+P 2400 3850
+F 0 "#PWR0147" H 2400 3700 50  0001 C CNN
+F 1 "+3.3V" H 2415 4023 50  0000 C CNN
+F 2 "" H 2400 3850 50  0001 C CNN
+F 3 "" H 2400 3850 50  0001 C CNN
+	1    2400 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 2300 3850 0    50   Input ~ 0
+DVDD
+Text GLabel 3600 3300 3    50   Input ~ 0
+DVDD
+$Comp
+L Volum-rescue:Crystal_16M-7pF-Volum Y3
+U 1 1 5EC63FDF
+P 4850 3850
+F 0 "Y3" H 5044 3896 50  0000 L CNN
+F 1 "Crystal_16M-7pF" H 5044 3805 50  0000 L CNN
+F 2 "Volum:ABM8" H 4850 3850 50  0001 C CNN
+F 3 "https://abracon.com/Resonators/abm8.pdf" H 4850 3850 50  0001 C CNN
+	1    4850 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2000 1350 1900
+Wire Wire Line
+	1350 1900 1500 1900
+Wire Wire Line
+	4850 4050 4850 4250
+Text GLabel 5550 2000 2    50   Input ~ 0
+RESET_AD
+Wire Notes Line
+	500  4550 4200 4550
+Connection ~ 3100 7000
+Wire Wire Line
+	3100 7000 3200 7000
+Connection ~ 3700 7000
+Wire Wire Line
+	3700 7000 3600 7000
+$Comp
+L Volum-rescue:Crystal-2pin-32kHz-Volum Y2
+U 1 1 5EBC4A7A
+P 3400 7000
+F 0 "Y2" H 3400 7237 50  0000 C CNN
+F 1 "Crystal-2pin-32kHz" H 3400 7146 50  0000 C CNN
+F 2 "Volum:ECS32712512RCTR" H 3450 7030 50  0001 L BNN
+F 3 "https://www.mouser.es/datasheet/2/122/ECX-12R-1314062.pdf" H 3460 6990 50  0001 L BNN
+	1    3400 7000
+	1    0    0    -1  
+$EndComp
+Text Notes 1150 7400 1    50   ~ 0
+Protocol Select 2
+Text Notes 1500 6900 3    50   ~ 0
+Protocol Select 1
+Text Notes 3400 6300 0    50   ~ 0
+I2C_ADDR
+Connection ~ 700  6150
+Text GLabel 3750 7000 2    50   Input ~ 0
+XOUT_IMU
+Text GLabel 3050 7000 0    50   Input ~ 0
+XIN_IMU
+Text GLabel 1900 5350 1    50   Input ~ 0
+XOUT_IMU
+Text GLabel 1800 5350 1    50   Input ~ 0
+XIN_IMU
+Wire Wire Line
+	3400 7400 3700 7400
+Connection ~ 3400 7400
+Wire Wire Line
+	3100 7400 3400 7400
+$Comp
+L Volum-rescue:DGND-Volum #PWR0143
+U 1 1 5E974A58
+P 3400 7400
+F 0 "#PWR0143" H 3400 7150 50  0001 C CNN
+F 1 "DGND" H 3405 7227 50  0000 C CNN
+F 2 "" H 3400 7400 50  0001 C CNN
+F 3 "" H 3400 7400 50  0001 C CNN
+	1    3400 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 7100 3100 7000
+Wire Wire Line
+	3700 7000 3700 7100
+Wire Wire Line
+	3050 7000 3100 7000
+Wire Wire Line
+	3750 7000 3700 7000
+$Comp
+L Volum-rescue:C-Device-Volum C30
+U 1 1 5E974A42
+P 3700 7250
+F 0 "C30" H 3815 7296 50  0000 L CNN
+F 1 "12 pF" H 3815 7205 50  0000 L CNN
+F 2 "Volum:C_0402" H 3738 7100 50  0001 C CNN
+F 3 "" H 3700 7250 50  0001 C CNN
+	1    3700 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C29
+U 1 1 5E974A3C
+P 3100 7250
+F 0 "C29" H 3215 7296 50  0000 L CNN
+F 1 "12 pF" H 3215 7205 50  0000 L CNN
+F 2 "Volum:C_0402" H 3138 7100 50  0001 C CNN
+F 3 "" H 3100 7250 50  0001 C CNN
+	1    3100 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  6150 700  6150
+Connection ~ 850  6150
+Wire Wire Line
+	850  5200 850  6150
+Wire Wire Line
+	1700 5200 850  5200
+Wire Wire Line
+	1700 5350 1700 5200
+$Comp
+L Volum-rescue:DGND-Volum #PWR0142
+U 1 1 5E966801
+P 2000 5350
+F 0 "#PWR0142" H 2000 5100 50  0001 C CNN
+F 1 "DGND" H 2005 5177 50  0000 C CNN
+F 2 "" H 2000 5350 50  0001 C CNN
+F 3 "" H 2000 5350 50  0001 C CNN
+	1    2000 5350
+	-1   0    0    1   
+$EndComp
+NoConn ~ 2300 7050
+NoConn ~ 2200 7050
+NoConn ~ 1800 7050
+NoConn ~ 1700 7050
+NoConn ~ 1600 5350
+NoConn ~ 2100 5350
+NoConn ~ 2200 5350
+NoConn ~ 2300 5350
+NoConn ~ 2400 5350
+Text Notes 2100 5400 1    50   ~ 0
+DNC
+Text Notes 2200 5400 1    50   ~ 0
+DNC
+Text Notes 2300 5400 1    50   ~ 0
+DNC
+Text Notes 2400 5400 1    50   ~ 0
+DNC
+$Comp
+L Volum-rescue:DGND-Volum #PWR0140
+U 1 1 5E8E78F7
+P 2900 6150
+F 0 "#PWR0140" H 2900 5900 50  0001 C CNN
+F 1 "DGND" H 2905 5977 50  0000 C CNN
+F 2 "" H 2900 6150 50  0001 C CNN
+F 3 "" H 2900 6150 50  0001 C CNN
+	1    2900 6150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2900 6050
+Connection ~ 2500 5350
+$Comp
+L Volum-rescue:R-Device-Volum R7
+U 1 1 5E8B96F7
+P 2500 5200
+F 0 "R7" V 2608 5200 50  0000 C CNN
+F 1 "10 Kohms" V 2699 5200 50  0000 C CNN
+F 2 "Volum:R_0402" V 2430 5200 50  0001 C CNN
+F 3 "" H 2500 5200 50  0001 C CNN
+	1    2500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:BNO055-Volum IC2
+U 1 1 5E78D9BD
+P 1200 6050
+F 0 "IC2" H 2944 5946 50  0000 L CNN
+F 1 "BNO055" H 2944 5855 50  0000 L CNN
+F 2 "Volum:BNO055" H 2750 6550 50  0001 L CNN
+F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST_BNO055_DS000_14.pdf" H 2750 6450 50  0001 L CNN
+F 4 "IMUs - Inertial Measurement Units Absolute Orientation 9-Axis Sensor" H 2750 6350 50  0001 L CNN "Description"
+F 5 "1" H 2750 6250 50  0001 L CNN "Height"
+F 6 "Bosch Sensortec" H 2750 5950 50  0001 L CNN "Manufacturer_Name"
+F 7 "BNO055" H 2750 5850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1200 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 7050 2000 7350
+Wire Wire Line
+	2100 7050 2100 7500
+Wire Wire Line
+	2500 5350 2600 5350
+Text GLabel 2600 5350 2    50   Input ~ 0
+SDA_IMU
+$Comp
+L Volum-rescue:+3.3V-Volum #PWR0139
+U 1 1 5E8B96FD
+P 2500 5050
+F 0 "#PWR0139" H 2500 4900 50  0001 C CNN
+F 1 "+3.3V" V 2515 5178 50  0000 L CNN
+F 2 "" H 2500 5050 50  0001 C CNN
+F 3 "" H 2500 5050 50  0001 C CNN
+	1    2500 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 6050 3000 6050
+Text GLabel 3000 6050 2    50   Input ~ 0
+SCL_IMU
+$Comp
+L Volum-rescue:+3.3V-Volum #PWR0138
+U 1 1 5E8ABE93
+P 2900 5750
+F 0 "#PWR0138" H 2900 5600 50  0001 C CNN
+F 1 "+3.3V" V 2915 5878 50  0000 L CNN
+F 2 "" H 2900 5750 50  0001 C CNN
+F 3 "" H 2900 5750 50  0001 C CNN
+	1    2900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:R-Device-Volum R8
+U 1 1 5E8ABE8D
+P 2900 5900
+F 0 "R8" V 3008 5900 50  0000 C CNN
+F 1 "10 Kohms" V 3099 5900 50  0000 C CNN
+F 2 "Volum:R_0402" V 2830 5900 50  0001 C CNN
+F 3 "" H 2900 5900 50  0001 C CNN
+	1    2900 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0137
+U 1 1 5E8A7056
+P 3200 6250
+F 0 "#PWR0137" H 3200 6000 50  0001 C CNN
+F 1 "DGND" H 3205 6077 50  0000 C CNN
+F 2 "" H 3200 6250 50  0001 C CNN
+F 3 "" H 3200 6250 50  0001 C CNN
+	1    3200 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Volum-rescue:R-Device-Volum R9
+U 1 1 5E8A7050
+P 3050 6250
+F 0 "R9" V 3158 6250 50  0000 C CNN
+F 1 "10 Kohms" V 3249 6250 50  0000 C CNN
+F 2 "Volum:R_0402" V 2980 6250 50  0001 C CNN
+F 3 "" H 3050 6250 50  0001 C CNN
+	1    3050 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0136
+U 1 1 5E8A2A8B
+P 2900 6350
+F 0 "#PWR0136" H 2900 6100 50  0001 C CNN
+F 1 "DGND" H 2905 6177 50  0000 C CNN
+F 2 "" H 2900 6350 50  0001 C CNN
+F 3 "" H 2900 6350 50  0001 C CNN
+	1    2900 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0135
+U 1 1 5E89EE38
+P 2500 7050
+F 0 "#PWR0135" H 2500 6800 50  0001 C CNN
+F 1 "DGND" H 2505 6877 50  0000 C CNN
+F 2 "" H 2500 7050 50  0001 C CNN
+F 3 "" H 2500 7050 50  0001 C CNN
+	1    2500 7050
+	1    0    0    -1  
+$EndComp
+Text GLabel 2400 7050 3    50   Input ~ 0
+INT_IMU
+Text Notes 2300 7100 1    50   ~ 0
+DNC
+Text Notes 2200 7100 1    50   ~ 0
+DNC
+Connection ~ 2100 7500
+Text GLabel 2100 7650 0    50   Input ~ 0
+RESET_IMU
+$Comp
+L Volum-rescue:+3.3V-Volum #PWR0134
+U 1 1 5E87E607
+P 2400 7500
+F 0 "#PWR0134" H 2400 7350 50  0001 C CNN
+F 1 "+3.3V" V 2415 7628 50  0000 L CNN
+F 2 "" H 2400 7500 50  0001 C CNN
+F 3 "" H 2400 7500 50  0001 C CNN
+	1    2400 7500
+	0    1    1    0   
+$EndComp
+$Comp
+L Volum-rescue:R-Device-Volum R6
+U 1 1 5E87A80F
+P 2250 7500
+F 0 "R6" V 2358 7500 50  0000 C CNN
+F 1 "10 Kohms" V 2449 7500 50  0000 C CNN
+F 2 "Volum:R_0402" V 2180 7500 50  0001 C CNN
+F 3 "" H 2250 7500 50  0001 C CNN
+	1    2250 7500
+	0    1    1    0   
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0133
+U 1 1 5E871208
+P 2000 7350
+F 0 "#PWR0133" H 2000 7100 50  0001 C CNN
+F 1 "DGND" H 2005 7177 50  0000 C CNN
+F 2 "" H 2000 7350 50  0001 C CNN
+F 3 "" H 2000 7350 50  0001 C CNN
+	1    2000 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0132
+U 1 1 5E86D87E
+P 1900 7350
+F 0 "#PWR0132" H 1900 7100 50  0001 C CNN
+F 1 "DGND" H 1905 7177 50  0000 C CNN
+F 2 "" H 1900 7350 50  0001 C CNN
+F 3 "" H 1900 7350 50  0001 C CNN
+	1    1900 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C28
+U 1 1 5E86D878
+P 1900 7200
+F 0 "C28" H 2015 7246 50  0000 L CNN
+F 1 "100 nF" H 2015 7155 50  0000 L CNN
+F 2 "Volum:C_0402" H 1938 7050 50  0001 C CNN
+F 3 "" H 1900 7200 50  0001 C CNN
+	1    1900 7200
+	1    0    0    -1  
+$EndComp
+Text Notes 1800 7100 1    50   ~ 0
+DNC
+Text Notes 1700 7100 1    50   ~ 0
+DNC
+$Comp
+L Volum-rescue:DGND-Volum #PWR0131
+U 1 1 5E862A64
+P 1600 7350
+F 0 "#PWR0131" H 1600 7100 50  0001 C CNN
+F 1 "DGND" H 1605 7177 50  0000 C CNN
+F 2 "" H 1600 7350 50  0001 C CNN
+F 3 "" H 1600 7350 50  0001 C CNN
+	1    1600 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:R-Device-Volum R5
+U 1 1 5E85F0FC
+P 1600 7200
+F 0 "R5" V 1708 7200 50  0000 C CNN
+F 1 "10 Kohms" V 1799 7200 50  0000 C CNN
+F 2 "Volum:R_0402" V 1530 7200 50  0001 C CNN
+F 3 "" H 1600 7200 50  0001 C CNN
+	1    1600 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0130
+U 1 1 5E859EE9
+P 1200 6650
+F 0 "#PWR0130" H 1200 6400 50  0001 C CNN
+F 1 "DGND" H 1205 6477 50  0000 C CNN
+F 2 "" H 1200 6650 50  0001 C CNN
+F 3 "" H 1200 6650 50  0001 C CNN
+	1    1200 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:R-Device-Volum R4
+U 1 1 5E856465
+P 1200 6500
+F 0 "R4" V 1308 6500 50  0000 C CNN
+F 1 "10 Kohms" V 1399 6500 50  0000 C CNN
+F 2 "Volum:R_0402" V 1130 6500 50  0001 C CNN
+F 3 "" H 1200 6500 50  0001 C CNN
+	1    1200 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Volum-rescue:+3.3V-Volum #PWR0129
+U 1 1 5E851AC9
+P 1200 6250
+F 0 "#PWR0129" H 1200 6100 50  0001 C CNN
+F 1 "+3.3V" H 1215 6423 50  0000 C CNN
+F 2 "" H 1200 6250 50  0001 C CNN
+F 3 "" H 1200 6250 50  0001 C CNN
+	1    1200 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0128
+U 1 1 5E84DF17
+P 700 6450
+F 0 "#PWR0128" H 700 6200 50  0001 C CNN
+F 1 "DGND" H 705 6277 50  0000 C CNN
+F 2 "" H 700 6450 50  0001 C CNN
+F 3 "" H 700 6450 50  0001 C CNN
+	1    700  6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C27
+U 1 1 5E84A2F6
+P 700 6300
+F 0 "C27" H 815 6346 50  0000 L CNN
+F 1 "100 nF" H 815 6255 50  0000 L CNN
+F 2 "Volum:C_0402" H 738 6150 50  0001 C CNN
+F 3 "" H 700 6300 50  0001 C CNN
+	1    700  6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:+3.3V-Volum #PWR0127
+U 1 1 5E84958E
+P 700 6150
+F 0 "#PWR0127" H 700 6000 50  0001 C CNN
+F 1 "+3.3V" H 715 6323 50  0000 C CNN
+F 2 "" H 700 6150 50  0001 C CNN
+F 3 "" H 700 6150 50  0001 C CNN
+	1    700  6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 6150 850  6150
+$Comp
+L Volum-rescue:DGND-Volum #PWR0126
+U 1 1 5E84105E
+P 1200 6050
+F 0 "#PWR0126" H 1200 5800 50  0001 C CNN
+F 1 "DGND" H 1205 5877 50  0000 C CNN
+F 2 "" H 1200 6050 50  0001 C CNN
+F 3 "" H 1200 6050 50  0001 C CNN
+	1    1200 6050
+	0    1    1    0   
+$EndComp
+Text Notes 1600 5400 1    50   ~ 0
+DNC
+Text Notes 700  4750 0    50   ~ 0
+Inertial Measurement Unit
+$Comp
+L Volum-rescue:2450AT18A100E-Volum AE1
+U 1 1 5E4801F2
+P 6300 2200
+F 0 "AE1" H 6425 2297 50  0000 L CNN
+F 1 "2450AT18A100E" H 6425 2206 50  0000 L CNN
+F 2 "Volum:ANTC3216X140N" H 6300 2200 50  0001 L BNN
+F 3 "2450AT18A100E" H 6300 2200 50  0001 L BNN
+F 4 "712-1005-1-ND" H 6300 2200 50  0001 L BNN "Field4"
+F 5 "Johanson Technology" H 6300 2200 50  0001 L BNN "Field5"
+F 6 "FBGA-780 Johanson" H 6300 2200 50  0001 L BNN "Field6"
+F 7 "ANTENNA, CERAMIC, 2.45GHZ; Bandwidth: 100MHz; Frequency: 2.45GHz; Gain: -0.5dB; Impedance: 50ohm" H 6300 2200 50  0001 L BNN "Field7"
+F 8 "https://www.digikey.es/product-detail/en/johanson-technology-inc/2450AT18A100E/712-1005-1-ND/1560834?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 6300 2200 50  0001 L BNN "Field8"
+	1    6300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:+3.3V-Volum #PWR014
+U 1 1 5E4C45DD
+P 7550 3300
+F 0 "#PWR014" H 7550 3150 50  0001 C CNN
+F 1 "+3.3V" H 7565 3473 50  0000 C CNN
+F 2 "" H 7550 3300 50  0001 C CNN
+F 3 "" H 7550 3300 50  0001 C CNN
+	1    7550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C10
+U 1 1 5E4BD0F3
+P 6500 5750
+F 0 "C10" H 6615 5796 50  0000 L CNN
+F 1 "100 nF" H 6615 5705 50  0000 L CNN
+F 2 "Volum:C_0402" H 6538 5600 50  0001 C CNN
+F 3 "" H 6500 5750 50  0001 C CNN
+	1    6500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C11
+U 1 1 5E4BDCE6
+P 6800 5750
+F 0 "C11" H 6915 5796 50  0000 L CNN
+F 1 "100 nF" H 6915 5705 50  0000 L CNN
+F 2 "Volum:C_0402" H 6838 5600 50  0001 C CNN
+F 3 "" H 6800 5750 50  0001 C CNN
+	1    6800 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C13
+U 1 1 5E4BE062
+P 7100 5750
+F 0 "C13" H 7215 5796 50  0000 L CNN
+F 1 "100 nF" H 7215 5705 50  0000 L CNN
+F 2 "Volum:C_0402" H 7138 5600 50  0001 C CNN
+F 3 "" H 7100 5750 50  0001 C CNN
+	1    7100 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:+3.3V-Volum #PWR011
+U 1 1 5E4C2558
+P 6800 5550
+F 0 "#PWR011" H 6800 5400 50  0001 C CNN
+F 1 "+3.3V" H 6815 5723 50  0000 C CNN
+F 2 "" H 6800 5550 50  0001 C CNN
+F 3 "" H 6800 5550 50  0001 C CNN
+	1    6800 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:L-Device-Volum L1
+U 1 1 5E6F78CF
+P 7750 2400
+F 0 "L1" V 7940 2400 50  0000 C CNN
+F 1 "3.9 nH" V 7849 2400 50  0000 C CNN
+F 2 "Volum:L_0402" H 7750 2400 50  0001 C CNN
+F 3 "" H 7750 2400 50  0001 C CNN
+	1    7750 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Volum-rescue:L-Device-Volum L2
+U 1 1 5E6F58F4
+P 8900 850
+F 0 "L2" V 9090 850 50  0000 C CNN
+F 1 "15 nH" V 8999 850 50  0000 C CNN
+F 2 "Volum:L_0402" H 8900 850 50  0001 C CNN
+F 3 "" H 8900 850 50  0001 C CNN
+	1    8900 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C15
+U 1 1 5E472D7F
+P 8450 850
+F 0 "C15" V 8198 850 50  0000 C CNN
+F 1 "1 uF" V 8289 850 50  0000 C CNN
+F 2 "Volum:C_0402" H 8488 700 50  0001 C CNN
+F 3 "" H 8450 850 50  0001 C CNN
+	1    8450 850 
+	0    1    1    0   
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C16
+U 1 1 5E471476
+P 8450 1100
+F 0 "C16" V 8198 1100 50  0000 C CNN
+F 1 "100 pF" V 8289 1100 50  0000 C TNN
+F 2 "Volum:C_0402" H 8488 950 50  0001 C CNN
+F 3 "" H 8450 1100 50  0001 C CNN
+	1    8450 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C14
+U 1 1 5E46F2B1
+P 8250 1300
+F 0 "C14" V 7998 1300 50  0000 C CNN
+F 1 "100 nF" V 8089 1300 50  0000 C TNN
+F 2 "Volum:C_0402" V 8090 1300 50  0001 C CNN
+F 3 "" H 8250 1300 50  0001 C CNN
+	1    8250 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Volum-rescue:L-Device-Volum L3
+U 1 1 5E6F4E06
+P 9100 1050
+F 0 "L3" H 9153 1096 50  0000 L CNN
+F 1 "10 uH" H 9153 1005 50  0000 L CNN
+F 2 "Volum:L_0402" H 9100 1050 50  0001 C CNN
+F 3 "" H 9100 1050 50  0001 C CNN
+	1    9100 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1200 9100 1400
+Wire Wire Line
+	9100 900  9100 850 
+Wire Wire Line
+	9100 850  9050 850 
+Wire Wire Line
+	8750 850  8700 850 
+Wire Wire Line
+	8700 1400 8700 850 
+Wire Wire Line
+	8900 1250 8900 1400
+Wire Wire Line
+	8100 1300 7900 1300
+Connection ~ 8700 850 
+Wire Wire Line
+	8400 1300 8400 1400
+Wire Wire Line
+	7900 850  8300 850 
+Wire Wire Line
+	8300 1100 7900 1100
+Wire Wire Line
+	8700 850  8600 850 
+Wire Wire Line
+	8600 1100 8600 1400
+Connection ~ 7900 1100
+Wire Wire Line
+	7900 1100 7900 850 
+Text GLabel 9800 2500 2    50   Input ~ 0
+AD_CS
+Text GLabel 9800 2400 2    50   Input ~ 0
+AD_SCLK
+Text GLabel 9800 2200 2    50   Input ~ 0
+AD_MOSI
+Text GLabel 9800 2100 2    50   Input ~ 0
+AD_MISO
+Text Notes 6400 5300 0    50   ~ 0
+Decoupling capacitors
+Text Notes 7600 5300 0    50   ~ 0
+Programming interface
+Text Notes 6850 800  0    50   ~ 0
+Microcontroller
+Wire Wire Line
+	6800 5550 6800 5600
+Wire Wire Line
+	6800 5900 7100 5900
+Connection ~ 6800 5900
+Wire Wire Line
+	6500 5900 6800 5900
+Wire Wire Line
+	6800 5600 7100 5600
+Connection ~ 6800 5600
+Wire Wire Line
+	6500 5600 6800 5600
+Text GLabel 7750 5500 0    50   Input ~ 0
+SWDIO
+Text GLabel 7750 5600 0    50   Input ~ 0
+SWDCLK
+Text GLabel 8000 3900 0    50   Input ~ 0
+SWDIO
+Text GLabel 8000 3800 0    50   Input ~ 0
+SWDCLK
+Text GLabel 9800 1700 2    50   Input ~ 0
+LSE2
+Text GLabel 9800 1600 2    50   Input ~ 0
+LSE1
+Text GLabel 8000 3300 0    50   Input ~ 0
+HSE2
+Text GLabel 8000 2900 0    50   Input ~ 0
+HSE1
+Wire Wire Line
+	7550 3300 7550 3400
+Wire Wire Line
+	7000 3700 7550 3700
+$Comp
+L Volum-rescue:R-Device-Volum R2
+U 1 1 5E5D9A4D
+P 7550 3550
+F 0 "R2" H 7620 3596 50  0000 L CNN
+F 1 "10 Kohms" H 7620 3505 50  0000 L CNN
+F 2 "Volum:R_0402" V 7480 3550 50  0001 C CNN
+F 3 "" H 7550 3550 50  0001 C CNN
+	1    7550 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 7550 3700
+Wire Wire Line
+	7550 3700 8000 3700
+Wire Wire Line
+	7900 1100 7900 1300
+$Comp
+L Volum-rescue:DGND-Volum #PWR0117
+U 1 1 5E6FD289
+P 7000 4700
+F 0 "#PWR0117" H 7000 4450 50  0001 C CNN
+F 1 "DGND" H 7005 4527 50  0000 C CNN
+F 2 "" H 7000 4700 50  0001 C CNN
+F 3 "" H 7000 4700 50  0001 C CNN
+	1    7000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0119
+U 1 1 5E6FE865
+P 7900 2700
+F 0 "#PWR0119" H 7900 2450 50  0001 C CNN
+F 1 "DGND" H 7905 2527 50  0000 C CNN
+F 2 "" H 7900 2700 50  0001 C CNN
+F 3 "" H 7900 2700 50  0001 C CNN
+	1    7900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0120
+U 1 1 5E6FF1CE
+P 7900 1300
+F 0 "#PWR0120" H 7900 1050 50  0001 C CNN
+F 1 "DGND" H 7905 1127 50  0000 C CNN
+F 2 "" H 7900 1300 50  0001 C CNN
+F 3 "" H 7900 1300 50  0001 C CNN
+	1    7900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0122
+U 1 1 5E70042B
+P 6800 5900
+F 0 "#PWR0122" H 6800 5650 50  0001 C CNN
+F 1 "DGND" H 6805 5727 50  0000 C CNN
+F 2 "" H 6800 5900 50  0001 C CNN
+F 3 "" H 6800 5900 50  0001 C CNN
+	1    6800 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0124
+U 1 1 5E70119B
+P 8900 4800
+F 0 "#PWR0124" H 8900 4550 50  0001 C CNN
+F 1 "DGND" H 8905 4627 50  0000 C CNN
+F 2 "" H 8900 4800 50  0001 C CNN
+F 3 "" H 8900 4800 50  0001 C CNN
+	1    8900 4800
+	1    0    0    -1  
+$EndComp
+Connection ~ 7900 1300
+Text GLabel 9800 3400 2    50   Input ~ 0
+RESET_IMU
+Text GLabel 9800 3300 2    50   Input ~ 0
+INT_IMU
+Text GLabel 9800 1800 2    50   Input ~ 0
+RESET_AD
+Text GLabel 9800 3000 2    50   Input ~ 0
+SCL_IMU
+Text GLabel 9800 2900 2    50   Input ~ 0
+SDA_IMU
+$Comp
+L Volum-rescue:+3.3V-Volum #PWR0148
+U 1 1 5EB56C59
+P 8900 1250
+F 0 "#PWR0148" H 8900 1100 50  0001 C CNN
+F 1 "+3.3V" H 8915 1423 50  0000 C CNN
+F 2 "" H 8900 1250 50  0001 C CNN
+F 3 "" H 8900 1250 50  0001 C CNN
+	1    8900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:nRF52832-QFxx-MCU_Nordic-Volum U1
+U 1 1 5E4698D2
+P 8900 3100
+F 0 "U1" H 8900 1311 50  0000 C CNN
+F 1 "nRF52832-QFAA-MCU_Nordic" H 8900 1220 50  0000 C CNN
+F 2 "Volum:QFN-48-1EP_6x6mm_Pitch0.4mm" H 8900 1000 50  0001 C CNN
+F 3 "" H 8400 3300 50  0001 C CNN
+	1    8900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C12
+U 1 1 5E47A23E
+P 7900 2550
+F 0 "C12" H 8015 2596 50  0000 L CNN
+F 1 "0.8 pF" H 8015 2505 50  0000 L CNN
+F 2 "Volum:C_0402" H 7938 2400 50  0001 C CNN
+F 3 "" H 7900 2550 50  0001 C CNN
+	1    7900 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2400 8000 2400
+Connection ~ 7900 2400
+$Comp
+L Volum-rescue:B3U-3000P-Volum BTN1
+U 1 1 5E484677
+P 7000 4200
+F 0 "BTN1" V 6954 4430 50  0000 L CNN
+F 1 "B3U-1000P" V 7045 4430 50  0000 L CNN
+F 2 "Volum:SW_B3U-1000P" H 7000 4200 50  0001 L BNN
+F 3 "Omron Electronics" H 7000 4200 50  0001 L BNN
+F 4 "None" H 7000 4200 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 7000 4200 50  0001 L BNN "Campo6"
+F 6 "B3U-3000P" H 7000 4200 50  0001 L BNN "Campo7"
+F 7 "None" H 7000 4200 50  0001 L BNN "Campo8"
+	1    7000 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0114
+U 1 1 5ECA1368
+P 10850 4100
+F 0 "#PWR0114" H 10850 3850 50  0001 C CNN
+F 1 "DGND" H 10855 3927 50  0000 C CNN
+F 2 "" H 10850 4100 50  0001 C CNN
+F 3 "" H 10850 4100 50  0001 C CNN
+	1    10850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 4100 9950 4100
+$Comp
+L Volum-rescue:C-Device-Volum C33
+U 1 1 5F971558
+P 7250 2400
+F 0 "C33" V 6998 2400 50  0000 C CNN
+F 1 "2.2 pF" V 7089 2400 50  0000 C CNN
+F 2 "Volum:C_0402" H 7288 2250 50  0001 C CNN
+F 3 "" H 7250 2400 50  0001 C CNN
+	1    7250 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Volum-rescue:L-Device-Volum L5
+U 1 1 5F97336F
+P 6950 2550
+F 0 "L5" H 7003 2596 50  0000 L CNN
+F 1 "DNC" H 7003 2505 50  0000 L CNN
+F 2 "Volum:L_0402" H 6950 2550 50  0001 C CNN
+F 3 "" H 6950 2550 50  0001 C CNN
+	1    6950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:L-Device-Volum L4
+U 1 1 5F975147
+P 6650 2400
+F 0 "L4" V 6840 2400 50  0000 C CNN
+F 1 "3.9 nH" V 6749 2400 50  0000 C CNN
+F 2 "Volum:L_0402" H 6650 2400 50  0001 C CNN
+F 3 "" H 6650 2400 50  0001 C CNN
+	1    6650 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 2400 7100 2400
+Wire Wire Line
+	6800 2400 6950 2400
+Connection ~ 6950 2400
+Wire Wire Line
+	7400 2400 7600 2400
+$Comp
+L Volum-rescue:DGND-Volum #PWR0118
+U 1 1 5F9AED3B
+P 6950 2700
+F 0 "#PWR0118" H 6950 2450 50  0001 C CNN
+F 1 "DGND" H 6955 2527 50  0000 C CNN
+F 2 "" H 6950 2700 50  0001 C CNN
+F 3 "" H 6950 2700 50  0001 C CNN
+	1    6950 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 6750 2000 0    50   ~ 0
+T network
+Wire Notes Line
+	6500 2950 7450 2950
+Wire Notes Line
+	7450 2950 7450 1900
+Wire Notes Line
+	7450 1900 6500 1900
+Wire Notes Line
+	6500 1900 6500 2950
+Wire Wire Line
+	6300 2400 6500 2400
+$Comp
+L Volum-rescue:C-Device-Volum C6
+U 1 1 5E49C305
+P 10050 5900
+F 0 "C6" H 10165 5946 50  0000 L CNN
+F 1 "12 pF" H 10165 5855 50  0000 L CNN
+F 2 "Volum:C_0402" H 10088 5750 50  0001 C CNN
+F 3 "" H 10050 5900 50  0001 C CNN
+	1    10050 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C7
+U 1 1 5E49CE8E
+P 10650 5900
+F 0 "C7" H 10765 5946 50  0000 L CNN
+F 1 "12 pF" H 10765 5855 50  0000 L CNN
+F 2 "Volum:C_0402" H 10688 5750 50  0001 C CNN
+F 3 "" H 10650 5900 50  0001 C CNN
+	1    10650 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C8
+U 1 1 5E49E146
+P 9000 5900
+F 0 "C8" H 9115 5946 50  0000 L CNN
+F 1 "12 pF" H 9115 5855 50  0000 L CNN
+F 2 "Volum:C_0402" H 9038 5750 50  0001 C CNN
+F 3 "" H 9000 5900 50  0001 C CNN
+	1    9000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C9
+U 1 1 5E49E425
+P 9400 5900
+F 0 "C9" H 9515 5946 50  0000 L CNN
+F 1 "12 pF" H 9515 5855 50  0000 L CNN
+F 2 "Volum:C_0402" H 9438 5750 50  0001 C CNN
+F 3 "" H 9400 5900 50  0001 C CNN
+	1    9400 5900
+	1    0    0    -1  
+$EndComp
+Text Notes 9300 5300 0    50   ~ 0
+Crystal Oscillators
+Wire Wire Line
+	9450 5650 9400 5650
+Wire Wire Line
+	8950 5650 9000 5650
+Connection ~ 10650 5650
+Wire Wire Line
+	10700 5650 10650 5650
+Connection ~ 10050 5650
+Wire Wire Line
+	10000 5650 10050 5650
+Text GLabel 9450 5650 2    50   Input ~ 0
+LSE2
+Text GLabel 8950 5650 0    50   Input ~ 0
+LSE1
+Text GLabel 10000 5650 0    50   Input ~ 0
+HSE1
+Wire Wire Line
+	9400 5650 9400 5750
+Wire Wire Line
+	9000 5750 9000 5650
+Wire Wire Line
+	10650 5650 10650 5750
+Wire Wire Line
+	10500 5650 10650 5650
+Wire Wire Line
+	10050 5650 10200 5650
+Wire Wire Line
+	10050 5750 10050 5650
+$Comp
+L Volum-rescue:DGND-Volum #PWR0111
+U 1 1 5E661F47
+P 10350 6050
+F 0 "#PWR0111" H 10350 5800 50  0001 C CNN
+F 1 "DGND" H 10355 5877 50  0000 C CNN
+F 2 "" H 10350 6050 50  0001 C CNN
+F 3 "" H 10350 6050 50  0001 C CNN
+	1    10350 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 6050 10350 6050
+Connection ~ 10350 6050
+Wire Wire Line
+	10350 6050 10650 6050
+$Comp
+L Volum-rescue:DGND-Volum #PWR0112
+U 1 1 5E66E34C
+P 10350 5450
+F 0 "#PWR0112" H 10350 5200 50  0001 C CNN
+F 1 "DGND" H 10355 5277 50  0000 C CNN
+F 2 "" H 10350 5450 50  0001 C CNN
+F 3 "" H 10350 5450 50  0001 C CNN
+	1    10350 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0113
+U 1 1 5E672C6E
+P 9200 6050
+F 0 "#PWR0113" H 9200 5800 50  0001 C CNN
+F 1 "DGND" H 9205 5877 50  0000 C CNN
+F 2 "" H 9200 6050 50  0001 C CNN
+F 3 "" H 9200 6050 50  0001 C CNN
+	1    9200 6050
+	1    0    0    -1  
+$EndComp
+Text GLabel 10700 5650 2    50   Input ~ 0
+HSE2
+$Comp
+L Volum-rescue:Crystal_CX2016_32M-Device-Volum Y1
+U 1 1 5E497EF8
+P 10350 5650
+F 0 "Y1" H 10544 5696 50  0000 L CNN
+F 1 "Crystal_32MHz" H 10544 5802 50  0000 L BNN
+F 2 "Volum:ECS320833B7KMTR" H 10350 5650 50  0001 C CNN
+F 3 "" H 10350 5650 50  0001 C CNN
+	1    10350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:Crystal-2pin-32kHz-Volum Y4
+U 1 1 5EBC38E9
+P 9200 5650
+F 0 "Y4" H 9200 5887 50  0000 C CNN
+F 1 "Crystal-2pin-32kHz" H 9200 5796 50  0000 C CNN
+F 2 "Volum:ECS32712512RCTR" H 9250 5680 50  0001 L BNN
+F 3 "https://www.mouser.es/datasheet/2/122/ECX-12R-1314062.pdf" H 9260 5640 50  0001 L BNN
+	1    9200 5650
+	1    0    0    -1  
+$EndComp
+Connection ~ 9200 6050
+Wire Wire Line
+	9200 6050 9400 6050
+Connection ~ 9000 5650
+Wire Wire Line
+	9000 6050 9200 6050
+Connection ~ 9400 5650
+Wire Wire Line
+	10350 5850 10350 6050
+Wire Wire Line
+	2100 7500 2100 7650
+Wire Notes Line
+	4200 4550 4200 7750
+Wire Notes Line
+	4200 7750 500  7750
+Wire Notes Line
+	500  7750 500  4550
+Wire Wire Line
+	1500 950  1150 950 
+Wire Wire Line
+	1150 950  1150 1800
+Wire Wire Line
+	1350 2000 1150 2000
+Wire Wire Line
+	1500 3050 1150 3050
+Wire Wire Line
+	1150 3050 1150 2100
+Wire Wire Line
+	1500 1500 1250 1500
+Wire Wire Line
+	1250 1500 1250 1900
+Wire Wire Line
+	1250 1900 1150 1900
+Wire Notes Line
+	6150 6350 11150 6350
+Wire Notes Line
+	11150 6350 11150 500 
+Wire Notes Line
+	11150 500  6150 500 
+Wire Notes Line
+	6150 500  6150 6350
+Wire Notes Line
+	500  4500 6050 4500
+Wire Notes Line
+	6050 4500 6050 500 
+Wire Notes Line
+	6050 500  500  500 
+Wire Notes Line
+	500  500  500  4500
+$Comp
+L Volum-rescue:C-Device-Volum C34
+U 1 1 5F1D136E
+P 10450 2750
+F 0 "C34" H 10565 2796 50  0000 L CNN
+F 1 "10 nF" H 10565 2705 50  0000 L CNN
+F 2 "Volum:C_0402" H 10488 2600 50  0001 C CNN
+F 3 "" H 10450 2750 50  0001 C CNN
+	1    10450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:R-Device-Volum R12
+U 1 1 5F1D1F7E
+P 10700 2300
+F 0 "R12" H 10770 2346 50  0000 L CNN
+F 1 "3.9 Mohms" H 10770 2255 50  0000 L CNN
+F 2 "Volum:R_0402" V 10630 2300 50  0001 C CNN
+F 3 "" H 10700 2300 50  0001 C CNN
+	1    10700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:R-Device-Volum R13
+U 1 1 5F1D2C92
+P 10700 2750
+F 0 "R13" H 10770 2796 50  0000 L CNN
+F 1 "10 Mohms" H 10770 2705 50  0000 L CNN
+F 2 "Volum:R_0402" V 10630 2750 50  0001 C CNN
+F 3 "" H 10700 2750 50  0001 C CNN
+	1    10700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:AGND-Volum #PWR0121
+U 1 1 5F1E0D5A
+P 10700 2900
+F 0 "#PWR0121" H 10700 2650 50  0001 C CNN
+F 1 "AGND" H 10705 2732 50  0000 C CNN
+F 2 "" H 10700 2900 50  0001 C CNN
+F 3 "" H 10700 2900 50  0001 C CNN
+	1    10700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:+3.3V-Volum #PWR0144
+U 1 1 5F1E2445
+P 10700 2150
+F 0 "#PWR0144" H 10700 2000 50  0001 C CNN
+F 1 "+3.3V" H 10715 2323 50  0000 C CNN
+F 2 "" H 10700 2150 50  0001 C CNN
+F 3 "" H 10700 2150 50  0001 C CNN
+	1    10700 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 2900 10700 2900
+Connection ~ 10700 2900
+Wire Wire Line
+	10450 2600 10700 2600
+Wire Wire Line
+	10700 2600 10700 2450
+Connection ~ 10700 2600
+$Comp
+L Volum-rescue:DGND-Volum #PWR0150
+U 1 1 5EC3979D
+P 5850 4750
+F 0 "#PWR0150" H 5850 4500 50  0001 C CNN
+F 1 "DGND" H 5855 4577 50  0000 C CNN
+F 2 "" H 5850 4750 50  0001 C CNN
+F 3 "" H 5850 4750 50  0001 C CNN
+	1    5850 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:AGND-Volum #PWR0149
+U 1 1 5EC38BEC
+P 5600 4750
+F 0 "#PWR0149" H 5600 4500 50  0001 C CNN
+F 1 "AGND" H 5605 4582 50  0000 C CNN
+F 2 "" H 5600 4750 50  0001 C CNN
+F 3 "" H 5600 4750 50  0001 C CNN
+	1    5600 4750
+	1    0    0    -1  
+$EndComp
+Text Notes 10000 1200 0    50   ~ 0
+Battery Voltage Measurement
+$Comp
+L Volum-rescue:C-Device-Volum C35
+U 1 1 60230254
+P 2950 3600
+F 0 "C35" H 3065 3646 50  0000 L CNN
+F 1 "220 pF" H 3065 3555 50  0000 L CNN
+F 2 "Volum:C_0402" H 2988 3450 50  0001 C CNN
+F 3 "" H 2950 3600 50  0001 C CNN
+	1    2950 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 3600 3200 3600
+Wire Wire Line
+	3200 3600 3200 3400
+Wire Wire Line
+	3200 3400 3300 3400
+Wire Wire Line
+	3300 3400 3300 3300
+Wire Wire Line
+	3200 3300 3200 3350
+Wire Wire Line
+	3200 3350 2800 3350
+Wire Wire Line
+	2800 3350 2800 3600
+$Comp
+L Volum-rescue:C-Device-Volum C38
+U 1 1 6024D60A
+P 5500 2950
+F 0 "C38" H 5615 2996 50  0000 L CNN
+F 1 "470 nF" H 5615 2905 50  0000 L CNN
+F 2 "Volum:C_0402" H 5538 2800 50  0001 C CNN
+F 3 "" H 5500 2950 50  0001 C CNN
+	1    5500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:AGND-Volum #PWR0123
+U 1 1 6025427B
+P 5500 3100
+F 0 "#PWR0123" H 5500 2850 50  0001 C CNN
+F 1 "AGND" H 5505 2932 50  0000 C CNN
+F 2 "" H 5500 3100 50  0001 C CNN
+F 3 "" H 5500 3100 50  0001 C CNN
+	1    5500 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2800 5500 2800
+Text GLabel 5200 2300 2    50   Input ~ 0
+AD_INT
+Text GLabel 9800 2000 2    50   Input ~ 0
+AD_INT
+$Comp
+L Volum-rescue:C-Device-Volum C36
+U 1 1 6026EEAD
+P 4500 1050
+F 0 "C36" H 4615 1096 50  0000 L CNN
+F 1 "10 uF" H 4615 1005 50  0000 L CNN
+F 2 "Volum:C_0402" H 4538 900 50  0001 C CNN
+F 3 "" H 4500 1050 50  0001 C CNN
+	1    4500 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:C-Device-Volum C37
+U 1 1 60275618
+P 4800 1050
+F 0 "C37" H 4915 1096 50  0000 L CNN
+F 1 "100 nF" H 4915 1005 50  0000 L CNN
+F 2 "Volum:C_0402" H 4838 900 50  0001 C CNN
+F 3 "" H 4800 1050 50  0001 C CNN
+	1    4800 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:+3.3V-Volum #PWR0151
+U 1 1 6027C9D5
+P 4650 900
+F 0 "#PWR0151" H 4650 750 50  0001 C CNN
+F 1 "+3.3V" V 4665 1028 50  0000 L CNN
+F 2 "" H 4650 900 50  0001 C CNN
+F 3 "" H 4650 900 50  0001 C CNN
+	1    4650 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:AGND-Volum #PWR0152
+U 1 1 6028A6A9
+P 4650 1200
+F 0 "#PWR0152" H 4650 950 50  0001 C CNN
+F 1 "AGND" H 4655 1032 50  0000 C CNN
+F 2 "" H 4650 1200 50  0001 C CNN
+F 3 "" H 4650 1200 50  0001 C CNN
+	1    4650 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 900  4650 900 
+Wire Wire Line
+	4500 1200 4650 1200
+Connection ~ 4650 1200
+Wire Wire Line
+	4650 1200 4800 1200
+Wire Wire Line
+	4500 900  4100 900 
+Wire Wire Line
+	4100 900  4100 1300
+Connection ~ 4500 900 
+Connection ~ 4650 900 
+Wire Wire Line
+	4650 900  4800 900 
+$Comp
+L Volum-rescue:R-Device-Volum RCAL1
+U 1 1 5E609BB6
+P 3350 1050
+F 0 "RCAL1" V 3143 1050 50  0000 C CNN
+F 1 "200 ohms" V 3234 1050 50  0000 C CNN
+F 2 "Volum:R_0402" V 3280 1050 50  0001 C CNN
+F 3 "" H 3350 1050 50  0001 C CNN
+	1    3350 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Volum-rescue:LEDGr_VCDG1113F-4BY3C-TR-Volum LED1
+U 1 1 5F32FD16
+P 10850 4100
+F 0 "LED1" H 11150 4467 50  0000 C CNN
+F 1 "LEDGr_VCDG1113F-4BY3C-TR" H 11150 4376 50  0001 C CNN
+F 2 "Volum:VCDG1113F4BY3CTR" H 11350 4250 50  0001 L BNN
+F 3 "http://www.stanley-components.com/php/downloaddatafile.php?rp=0,VCDG1113F-4BY3C-TR_e.pdf" H 11350 4150 50  0001 L BNN
+F 4 "LEDGr_VCDG1113F-4BY3C-TR" H 11350 4050 50  0001 L BNN "Description"
+F 5 "0.6" H 11350 3950 50  0001 L BNN "Height"
+F 6 "Stanley Electric" H 11350 3850 50  0001 L BNN "Manufacturer_Name"
+F 7 "VCDG1113F-4BY3C-TR" H 11350 3750 50  0001 L BNN "Manufacturer_Part_Number"
+F 8 "VCDG1113F-4BY3C-TR" H 11350 3650 50  0001 L BNN "Arrow Part Number"
+F 9 "327-VCDG1113F4BY3CTR" H 11350 3450 50  0001 L BNN "Mouser Part Number"
+F 10 "https://www.mouser.com/Search/Refine.aspx?Keyword=327-VCDG1113F4BY3CTR" H 11350 3350 50  0001 L BNN "Mouser Price/Stock"
+	1    10850 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Volum-rescue:53048-0450-Volum J2
+U 1 1 5F2E9DCD
+P 1150 2100
+F 0 "J2" H 1442 1535 50  0000 C CNN
+F 1 "53048-0450" H 1442 1626 50  0000 C CNN
+F 2 "Volum:Molex_PicoBlade_53048-0450" H 1800 2200 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/530480450_sd.pdf" H 1800 2100 50  0001 L CNN
+F 4 "1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Through Hole, Gold (Au) Plating, Friction Lock, 4 Circuits, Tape and Reel, 2.30mm PC Tail Length" H 1800 2000 50  0001 L CNN "Description"
+F 5 "3.5" H 1800 1900 50  0001 L CNN "Height"
+F 6 "Molex" H 1800 1800 50  0001 L CNN "Manufacturer_Name"
+F 7 "53048-0450" H 1800 1700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "53048-0450" H 1800 1600 50  0001 L CNN "Arrow Part Number"
+F 9 "538-53048-0450" H 1800 1400 50  0001 L CNN "Mouser Part Number"
+F 10 "https://www.mouser.co.uk/ProductDetail/Molex/53048-0450?qs=0lSvoLzn4L%252Bhzo05ywM78Q%3D%3D" H 1800 1300 50  0001 L CNN "Mouser Price/Stock"
+	1    1150 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Volum-rescue:R-Device-Volum R11
+U 1 1 5EC9FCBF
+P 10100 4100
+F 0 "R11" V 9893 4100 50  0000 C CNN
+F 1 "100 ohms" V 9984 4100 50  0000 C CNN
+F 2 "Volum:R_0402" V 10030 4100 50  0001 C CNN
+F 3 "" H 10100 4100 50  0001 C CNN
+	1    10100 4100
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5200 2200 2    50   Input ~ 0
+AD_GPIO1
+Connection ~ 10450 2600
+Wire Wire Line
+	10450 2600 9800 2600
+Text GLabel 9800 1900 2    50   Input ~ 0
+AD_GPIO1
+$Comp
+L M50-3030242:M50-3030242 J1
+U 1 1 60911D1B
+P 7750 5500
+F 0 "J1" H 8378 5496 50  0000 L CNN
+F 1 "M50-3030242" H 8378 5405 50  0000 L CNN
+F 2 "Volum:M503030242" H 8400 5600 50  0001 L CNN
+F 3 "https://cdn.harwin.com/pdfs/M50-303.pdf" H 8400 5500 50  0001 L CNN
+F 4 "Headers & Wire Housings 2 WAY SIL VERT PC TAIL SKT" H 8400 5400 50  0001 L CNN "Description"
+F 5 "4.55" H 8400 5300 50  0001 L CNN "Height"
+F 6 "" H 8400 5200 50  0001 L CNN "RS Part Number"
+F 7 "" H 8400 5100 50  0001 L CNN "RS Price/Stock"
+F 8 "Harwin" H 8400 5000 50  0001 L CNN "Manufacturer_Name"
+F 9 "M50-3030242" H 8400 4900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7750 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 53048-0210:53048-0210 J3
+U 1 1 60852278
+P 8400 6050
+F 0 "J3" H 8692 5685 50  0000 C CNN
+F 1 "53048-0210" H 8692 5776 50  0000 C CNN
+F 2 "Volum:SHDRRA2W35P0X125_1X2_425X550X350P" H 9050 6150 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/2799279P" H 9050 6050 50  0001 L CNN
+F 4 "2 way through board PCB 90deg header Molex PICOBLADE Series, Series Number 53048, 1.25mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 1A" H 9050 5950 50  0001 L CNN "Description"
+F 5 "3.5" H 9050 5850 50  0001 L CNN "Height"
+F 6 "2799279P" H 9050 5750 50  0001 L CNN "RS Part Number"
+F 7 "http://uk.rs-online.com/web/p/products/2799279P" H 9050 5650 50  0001 L CNN "RS Price/Stock"
+F 8 "Molex" H 9050 5550 50  0001 L CNN "Manufacturer_Name"
+F 9 "53048-0210" H 9050 5450 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "70372589" H 9050 5350 50  0001 L CNN "Allied_Number"
+	1    8400 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Volum-rescue:DGND-Volum #PWR0101
+U 1 1 5EA74904
+P 8500 6050
+F 0 "#PWR0101" H 8500 5800 50  0001 C CNN
+F 1 "DGND" H 8505 5877 50  0000 C CNN
+F 2 "" H 8500 6050 50  0001 C CNN
+F 3 "" H 8500 6050 50  0001 C CNN
+	1    8500 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Volum-rescue:+3.3V-Volum #PWR0153
+U 1 1 602DC5B1
+P 8500 5950
+F 0 "#PWR0153" H 8500 5800 50  0001 C CNN
+F 1 "+3.3V" H 8515 6123 50  0000 C CNN
+F 2 "" H 8500 5950 50  0001 C CNN
+F 3 "" H 8500 5950 50  0001 C CNN
+	1    8500 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 5950 8500 5950
+Wire Wire Line
+	8400 6050 8500 6050
+$EndSCHEMATC

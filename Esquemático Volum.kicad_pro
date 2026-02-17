@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "proyecto_santi.kicad_pro",
+    "filename": "Esquemático Volum.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -609,6 +609,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "6cdb1362-4f2c-4219-ab62-d0d0037da735",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
